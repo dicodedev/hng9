@@ -13,6 +13,7 @@ http_response_code(200);
 
 $res["slackUsername"] = "dicodedev";
 $res["backend"] = true;
+$res["age"] = 22;
 $res["bio"] = "I'm a Software Engineer (Vuejs, Laravel/PHP)";
 
 echo json_encode($res);
