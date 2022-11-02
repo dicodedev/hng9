@@ -19,7 +19,7 @@ if ($CSVfp !== FALSE) {
             }
 
             //add item if the title has been added and you are not on the gap line
-            if ($added_title && $count && ($count < ($max_count)) && !empty($data)) {
+            if ($added_title && $count && ($count <= ($max_count)) && !empty($data)) {
                 //get values
                 $serial_number = $data[0];
                 $filename = $data[1];
