@@ -5,83 +5,81 @@ $newarray = array();
 
 $CSVfp = fopen($file, "r+");
 if ($CSVfp !== FALSE) {
-    $added_title = false;
+    $added_title = 0;
     $count = 0;
     $team;
-    $max_count = 22; //team name + 20 members
+    $max_count = 20; //team name + 20 members
     while (!feof($CSVfp)) {
         $data = fgetcsv($CSVfp, 1000, ",");
+        if (isset($data[0]) && !empty($data[0])) {
+            //add the team name if the title has been added
+            if (!$count && $added_title) {
+                array_push($newarray, [$data[0], '', '', '', '', '']);
+                $team = $data[0];
+            }
 
-        //add the team name if the title has been added
-        if (!$count && $added_title) {
-            array_push($newarray, [$data[0], '', '', '', '', '']);
-            $team = $data[0];
-        }
-
-        //add item if the title has been added and you are not on the gap line
-        if ($added_title && $count && ($count < ($max_count)) && !empty($data)) {
-            //get values
-            $serial_number = $data[0];
-            $filename = $data[1];
-            $des = $data[2];
-            $gender = $data[3];
-            $UUID = $data[4];
-            //create json data
-            $array = array(
-                'format' => 'CHIP-0007',
-                'name' => $filename,
-                'description' => $des,
-                'minting_tool' => $team,
-                'sensitive_content' => false,
-                'series_number' => $serial_number,
-                'series_total' => 526,
-                'attributes' =>
-                array(
-                    0 =>
-                    array(
-                        'trait_type' => 'gender',
-                        'value' => $gender,
-                    ),
-                ),
-                'collection' =>
-                array(
-                    'name' => 'Zuri NFT Tickets for Free Lunch',
-                    'id' => $UUID,
+            //add item if the title has been added and you are not on the gap line
+            if ($added_title && $count && ($count < ($max_count)) && !empty($data)) {
+                //get values
+                $serial_number = $data[0];
+                $filename = $data[1];
+                $des = $data[2];
+                $gender = $data[3];
+                $UUID = $data[4];
+                //create json data
+                $array = array(
+                    'format' => 'CHIP-0007',
+                    'name' => $filename,
+                    'description' => $des,
+                    'minting_tool' => $team,
+                    'sensitive_content' => false,
+                    'series_number' => $serial_number,
+                    'series_total' => 526,
                     'attributes' =>
                     array(
                         0 =>
                         array(
-                            'type' => 'description',
-                            'value' => $des,
+                            'trait_type' => 'gender',
+                            'value' => $gender,
                         ),
                     ),
-                ),
-            );
-            $json = json_encode($array);
+                    'collection' =>
+                    array(
+                        'name' => 'Zuri NFT Tickets for Free Lunch',
+                        'id' => $UUID,
+                        'attributes' =>
+                        array(
+                            0 =>
+                            array(
+                                'type' => 'description',
+                                'value' => $des,
+                            ),
+                        ),
+                    ),
+                );
+                $json = json_encode($array);
 
-            //hash json
-            $hash = hash('sha256', $json);
-            if (isset($data[1]) && !empty($data[1])) {
-                array_push($newarray, [str_replace('"', '', $data[0]), str_replace('"', '', $data[1]), str_replace('"', '', $data[2]), str_replace('"', '', $data[3]), str_replace('"', '', $data[4]), str_replace('"', '', $hash)]);
-            }else{
-                array_push($newarray, [str_replace('"', '', $data[0]), str_replace('"', '', $data[1]), str_replace('"', '', $data[2]), str_replace('"', '', $data[3]), str_replace('"', '', $data[4]), '']);
+                //hash json
+                $hash = hash('sha256', $json);
+                if (isset($data[1]) && !empty($data[1])) {
+                    array_push($newarray, [str_replace('"', '', $data[0]), str_replace('"', '', $data[1]), str_replace('"', '', $data[2]), str_replace('"', '', $data[3]), str_replace('"', '', $data[4]), str_replace('"', '', $hash)]);
+                } else {
+                    array_push($newarray, [str_replace('"', '', $data[0]), str_replace('"', '', $data[1]), str_replace('"', '', $data[2]), str_replace('"', '', $data[3]), str_replace('"', '', $data[4]), '']);
+                }
             }
-        }
 
-        if ($added_title && !($count === ($max_count - 1))) {
-            $count++;
-        }
+            if ($added_title && !($count === ($max_count))) {
+                $count++;
+            } else {
+                $count = 0;
+            }
 
-        //gotten to the gap, reset counter
-        if ($count === ($max_count)) {
-            $count = 0;
-        }
-
-        //add the file title
-        if (!$added_title) {
-            array_push($newarray, [str_replace('"', '', $data[0]), str_replace('"', '', $data[1]), str_replace('"', '', $data[2]), str_replace('"', '', $data[3]), str_replace('"', '', $data[4]), str_replace('"', '', "sha256")]);
-            // $count++;
-            $added_title = true;
+            //add the file title
+            if (!$added_title) {
+                array_push($newarray, [str_replace('"', '', $data[0]), str_replace('"', '', $data[1]), str_replace('"', '', $data[2]), str_replace('"', '', $data[3]), str_replace('"', '', $data[4]), str_replace('"', '', "sha256")]);
+                // $count++;
+                $added_title++;
+            }
         }
     }
 

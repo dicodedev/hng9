@@ -1,224 +1,204 @@
-"Series Number",Filename,Description,Gender,UUID,sha256
+"Series Number",Filename,Name,Description,Gender,sha256
 "TEAM BEVEL",,,,,
-1,adewale-the-amebo,"Adewale always wants to be in everyone's business.",male,cad316c3-37f8-4b27-9f53-9d803bfcfee7,8198e3e6532ef9f7aa1e8f4f32fb7ea7bdf1cfb995f6e5d1f748697a7d538f41
-2,alli-the-queeny,"Alli is an LGBT Stan.",male,a57ecda4-a26f-4e97-a757-e1800af39aab,66a46e18b2b02b9a98ce83d3922f2760446aef5c9e52861da40db33b27e843dd
-3,aminat-the-snnobish,"Aminat never really wants to talk to anyone.",female,0e37ed0d-3e84-4f32-a91f-ec9c4ba8c7de,ced8ef0ee668796f628be61c089d30f700c68c98397b302602322acfee5b1b31
-4,aminu-the-carpenter,"Aminu's hands are blessed, he makes the best furniture in the whole of Kano.",male,4f30b751-96e7-40fe-97fd-e3d44973ff2f,015d3a10e8953462cd5ab31dc0e3a78772f99ba64bc1daea9cb428ae3a987886
-5,chibuike-the-kudibag,"Chibuike is too rich. Everyone wonders how he got it.",male,5ce854f2-7ac1-46fd-b3fe-57583935d1e5,3f4df05c4e88412fc8a6e82b13fd90bca5f908b7bdb5ba62438118c58b8fc286
-6,chidinma-the-model,"From Paris' runways, to London's streets, she's always in demand.",female,c98db72e-49ac-4ca6-89d5-e00f5fbbcc45,6e411c9ecfb55ef409f178a38296729033e040d285d16894c130a4a3278391c1
-7,"chioma-pretty- girl","Chioma's face card is a 100.",female,182ea888-a85b-42ca-ad73-ed4f8f9aa5c7,56a9e002b5418d0b07c5b23c720981f3c136291f531245edc7d85b5db4b78131
-8,damilare-the-handsome,"He's a fine boy. Everyone loves his face(and him).",male,27eca2dc-d7df-474a-8f8f-1858152c711e,964d431dd2152cf48330c03d59c6da565aad7fce54e359f1044ee7e608b7dab3
-9,ebiowie-the-planter,"Ebiowei has a reputation for nurturing plants.",male,f1df8270-4d60-4bd4-8959-ba7c384db5c4,308858f1a58954954fb57974859117f8bab729f6a762e1199df7f44273bab701
-10,emeka-the-businessman,"Emeka only cares about containers. No time to waste.",male,9b3d75da-4887-4089-aee4-50de3954fdc9,f452fd35e31701327785d4c19122e571e84063ac8350f7c9fa486a5e59717b99
-11,gbeminyi-the-monk,"He lives in a monastery off the coast. No one has heard him speak in years.",male,c8b1fd1d-8551-4bb4-8dc4-923a9aeb39fb,fbca0f7f16e460ab4f2c45857ddcfaac845a3223d49c6670e67be978d1d616e7
-12,henry-the-sportsman,"He's played every sport known to man. Even cricket.",male,e1225451-bfdf-4a1f-8d37-9cce3a0bd67b,4a3f70820358d543f4453698275a590e0aace504b0dbb19261af03582b94fb96
-13,mayowa-the-smallie,"Mayowa is so small but everyone loves him even still.",male,dfbb4163-df24-4d54-b74c-6218a68df8bd,60f2d5465ee2998874030a62fa2d01f3b7f02f58b788654679a92d7e65a5a0a0
-14,muyiwa-the-stylish,"Muyiwa has a motto which is never to be caught unfresh.",male,dcf9d5a0-57b7-4126-a05e-6c8f1045d3f7,7e616d7c42cb15fd3dcd6e81e6a8df73ffe8686aa827b3d964724242254eb550
-15,nina-paper-chaser,"Nina na Igbo girl wey like money. Finish.",female,59524227-dc52-407c-8cca-e9e8c5fb3018,4ba9563ce658c13df310dcb8acdea60dcbf6b184578220cf3af70e8b59bc71cd
-16,oluwaseun-spicy,"He loves spicy foods. He cooks pepper and sprinkles rice on top.",male,808f7007-6552-4efa-bd13-4b7c337b102b,d9b984003d044dddec2bb78752de2ad52f6f6fa33fafed8af45dbda2ea06ec64
-17,sesan-the-smartie,"Sesan always comes first in competitions.",male,ba3edda7-8940-4ca4-97ba-826398d5909f,73dafe1ea9390639a02489e2479af450339f83943c530232128a60d0e4dea9cb
-18,tiwa-london,"If she says she's in London and you see her, you're in London too.",female,78da7aeb-8352-4e25-89ac-dc48b5984089,85f1e1d743df6ed6eaab40f135f403d0c0e3ec2618164085153efd1bdef10e3f
-19,tunde-yoruba-demon,"Tunde derives joy in breaking girls heart. It's a lifestyle.",male,53b46bd7-a537-402b-b249-0b4074a8faae,ad1553ba86509bf740c70edb1d8f170656158a366249d9ff3320e1f4ea2966dd
-20,yakubu-the-zombie,"Yakubu earned his zombie title because na only dust full him head.",male,4adb6781-1614-424e-8f77-fe59ffca2209,975e8797cf39afdbc34b7dea7ee15cde685ea941a01f11478acce133d9fca27a
-,,,,,
+1,adewale-the-amebo,"adewale the amebo","Adewale always wants to be in everyone's business.",male,5af20f2a8d14f1b2aebabf97d95f4391e73ced84720fb92d0f4e5d464db90de4
+2,alli-the-queeny,"alli the queeny","Alli is an LGBT Stan.",male,3b2edc85af436b8e423550afb5fccbf2d73428514a13fd43bd9124684f2256c1
+3,aminat-the-snnobish,"aminat the snnobish","Aminat never really wants to talk to anyone.",female,6a64c6771047d4c5aefcf0c57a99f1c1cdb877aa4931b544e9253a9e848437d0
+4,aminu-the-carpenter,"aminu the carpenter","Aminu's hands are blessed, he makes the best furniture in the whole of Kano.",male,e437dcc6b76ba6649469a933227d06e936a5d52462da577ca3def5288dacd29e
+5,chibuike-the-kudibag,"chibuike the kudibag","Chibuike is too rich. Everyone wonders how he got it.",male,d20fac841e3d62b84f3213313547fd9f15cfa56006de07e731be69ef3c96ae60
+6,chidinma-the-model,"chidinma the model","From Paris' runways, to London's streets, she's always in demand.",female,87f1e8fb17f35867636d555b0751bf3dd8077ff5846a0259aaedd0858c945565
+7,"chioma-pretty- girl","chioma pretty girl","Chioma's face card is a 100.",female,0dca8b2968c96c575fc6b2548eba83db10ba4b0dd64feeb635565b1cc55f53e6
+8,damilare-the-handsome,"damilare the handsome","He's a fine boy. Everyone loves his face(and him).",male,9de0ba7c187a39d40014c2a0ff5eeeb7efe453df5d676a3fc2830be71d45fb40
+9,ebiowie-the-planter,"ebiowie the planter","Ebiowei has a reputation for nurturing plants.",male,dc535eb0294864199032aaf9835849f492dd94143c11eb07f81ddaae0b75f4ad
+10,emeka-the-businessman,"emeka the businessman","Emeka only cares about containers. No time to waste.",male,50eba232a40dd25c93700612805c70fd9d651b4e7ecc1ac83ee13ddefb84c976
+11,gbeminyi-the-monk,"gbeminyi the monk","He lives in a monastery off the coast. No one has heard him speak in years.",male,39f182e5dfde49b828c67a3897aec52a6a759de7675186b4cf015ac4218cd723
+12,henry-the-sportsman,"henry the sportsman","He's played every sport known to man. Even cricket.",male,936e0eb7abfce6aa63809f84082d13cb50deb6154372f25a1aac468e1ea8a481
+13,mayowa-the-smallie,"mayowa the smallie","Mayowa is so small but everyone loves him even still.",male,b39c8de6cd087f28a369fece631790df6402ecb36fc70bed2ac53c5827cd550f
+14,muyiwa-the-stylish,"muyiwa the stylish","Muyiwa has a motto which is never to be caught unfresh.",male,d96c596f7140ff3698c08a0649ae2566995ad7ed21b6aa22fdce5a2a26a2806e
+15,nina-paper-chaser,"nina paper chaser","Nina na Igbo girl wey like money. Finish.",female,1bc45e7c399e625664750d27ac97bbd264567a74d733c6eea4e4d2af21f12f5f
+16,oluwaseun-spicy,"oluwaseun spicy","He loves spicy foods. He cooks pepper and sprinkles rice on top.",male,fc04d624396c73e84cd78d9148cbaa3b6d531ff09dc63f4be3869fc69188d729
+17,sesan-the-smartie,"sesan the smartie","Sesan always comes first in competitions.",male,8dddc5f1280be2cc387e344a287f78dbf6d2797133169c20d93e1733e7fb23c1
+18,tiwa-london,"tiwa london","If she says she's in London and you see her, you're in London too.",female,210a2d4bb1557fde965395a9a4363e4e5d405d58b88c58ebe71c6ebd34a3b9f2
+19,tunde-yoruba-demon,"tunde yoruba demon","Tunde derives joy in breaking girls heart. It's a lifestyle.",male,8a534a3d033558e86b63ab27c295ec9cdd058f051fc62ae67b7bb9444def7123
 "TEAM CLUTCH",,,,,
-21,,,,,
-22,,,,,
-23,,,,,
-24,,,,,
-25,,,,,
-26,,,,,
-27,,,,,
-28,,,,,
-29,,,,,
-30,,,,,
-31,,,,,
-32,,,,,
-33,,,,,
-34,,,,,
-35,,,,,
-36,,,,,
-37,,,,,
-38,,,,,
-39,,,,,
-40,,,,,
-,,,,,
+21,abdul-the-vibe,"abdul the vibe","abdul the life of the party and can never be caught unfresh",male,3a789301bc55887762ad41fb70544cd76eee7e0a4f104f8660e8feec304eb911
+22,"emeka-the -clown","emeka the clown","emeka the funny man, always making silly jokes",male,b810d2da5ca522b7bd19e8a016867b3e822be6b2d156241d8219173581e7b997
+23,salam-the-odogwu,"salam the odogwu","salam is a big time textile marketer always sourcing for quality materials",male,9241b256315810a5c7fe099b70ba76de413a2a30b7a241096b0f2b9e8cd24295
+24,charles-the-exporter,"charles the exporter","charles a business man an importer and exporter never to be caught idle",male,d316f293a5496d5a51c64554fed16593631aa48d8cd74b83581acc04a7b665c5
+25,wole-the-pimp,"wole the pimp","wole knows all the babes in town and is always pimping them out",male,a240db9936a498e7ed7e7748db194cab083613f82c56fc659baac09c58a9101e
+26,saro-the-baller,"saro the baller","saro is a baller and is always ready to turnup",male,77f12e05802e0b1eacd725bda90c20d17b5423c20168316e08e877d86d3fcd3a
+27,ade-omo-yoruba,"ade omo yoruba","ade a yourba man takes pride in the yourba tribe",male,73f980639d25cf87313b1fe9cb2f6acc9ca875241e4fa18065ca972e93c66053
+28,shola-cool-kid," shola cool kid","shola prefers to be alone because he hates stress",male,564adc06f1295143fc5643c25c16c3e41bfa829328f2c3a0eba3f7e40b8a410a
+29,charlie-the-smoker,"charlie the smoker","charlie uses smoking as a coping mechanism",male,e96e9b3adde0f45dceafddece2adb896786f43165db30eefcc6c94ccd2f0db63
+30,femi-the-badguy,"femi the badguy","femi is the biggest guy in lagos and he has served plenty babes breakfast",male,42405256c1beec83513f505380d75f5feafa72fd03d95d56663961a2efd4034e
+31,sinzu-money,"sinzu money","sinzu loves spending money on flashy things",male,4eb84a6c1d51278aaa37036401cd35c38a572a081d5daf07d180a6f7f93f54e5
+32,"obinna-the-palmwine tapper","obinna the palmwine tapper","obinna taps palmwine for a living",male,9bb074b7c61967b937f8389e86e9de9b2c601d832b5bd2e048486178ac92b9c1
+33,aminu-maikudi,"aminu maikudi","aminu is a wealthy man from a family with generational wealth. His exquisite taste shows it",male,b3082827d1106b52749e8d6370d5f7720a76f0b06ac00a682f4f9f2b537dd49a
+34,"sabinus-the-town crier","sabinus the town crier","sabinus delivers messages to his town people",male,9f8374d990b5253f0dc15e1a3a9d7c7788cbceba290a365a8f5ec14ba46dfca6
+35,adisa-ibadan,"adisa ibadan","adisa the greatest man in the whole town of ibadan, is authority can never be questioned",male,b752414ba874f3e519f5ae71f8c66fd3d2b8e8562a2ef28919eca9cc55d59e66
+36,linda-the-navigator,"linda the navigator","linda knows how to make a way for herself and people around her",female,cef251367db2128d7674d6415d005baa92bfde8d6cd20190158a76ee5470f267
+37,"kemi-the-iron lady","kemi the iron lady","kemi the strongest woman known to the town of  igbede people",female,fe8e1caa703738d1b52677dc236b98769930ae58fc4471f1b9620a0a5bb4ed39
+38,"mercy-the-sassy lady","mercy the sassy lady","mercy only care about spending her father's money and treats people like trash",female,612baefbf1a1fed12c9701ed41918ceb14747cda87fa0880efdfdf5a775703d0
+39,sandra-money,"sandra money","sandra likes getting and spending money",female,c0a108aaffc8fca692d7298da9cabb0087378233cf4981eda4f4eca05f8b82dd
 "TEAM ENGINE",,,,,
-41,,,,,
-42,,,,,
-43,,,,,
-44,,,,,
-45,,,,,
-46,,,,,
-47,,,,,
-48,,,,,
-49,,,,,
-50,,,,,
-51,,,,,
-52,,,,,
-53,,,,,
-54,,,,,
-55,,,,,
-56,,,,,
-57,,,,,
-58,,,,,
-59,,,,,
-60,,,,,
-,,,,,
+41,kim-rich-aunty,"kim rich aunty","she loves spoiling her nieces and nephew",Female,722c1ec8f4330407ca5aef432b17f8564155aac92dc6e5acb823e5161e7c717b
+42,barbra-vampire-bc,"barbra vampire bc","she loves drinking the blood of her victims",Female,f7e899d083a4029dcc1c2b0e17fa93851ffaa1ec17f4f35e2b71bba42e7a5a2d
+43,jean-art-dolger,"jean art dolger","loves collecting art for charity ",Female,a09f4caee8c3f0bc8d94cc032e1bc19754aac345b5ddff59f62b90b9006edc4d
+44,"flora-burger- eater","flora burger eater","she loves eating burgers",Female,81c6af3fb606b951d1948c322efcc2a2536a64bac47c3406b11da4fce4fa3807
+45,jessie-lord-rings,"jessie lord rings","she seeks her 'precious'",Female,409dea8cc49badb3ee747147b719fa186493170fdb2cfb761470968aa4d63ab9
+46,pinky-monky-ponk,"pinky monky ponk","she love to dance the honky tonk",Female,4d57b9f408884400f79810d2890ec09b0f82e0f3557fc644fa336f1a593af1c8
+47,wanjiru-hippie-glitter,"wanjiru hippie glitter","a hippie that loves her glitters",Female,61ebddaf708138eaf75d4a1a283c7920c6aa4889ba55b8a669ea12bbebe55124
+48,njoki-binary-coder,"njoki binary coder","she codes with the best and tops the set",Female,210534ae4e618cdda39f0d20c4503bb60134cacaa8907cf06fcfeec3402b8cd5
+49,wangu-calaba-hustler,"wangu calaba hustler","she's a mean hustler so be careful",Female,15d6972ae6981c82f698f4f4a6f3d8e0fce0a5bbf1c1c947ef8648315dc1cc65
+50,lulu-dey-kpako,"lulu dey kpako","she's as skinny as she is beautiful",Female,f07154a2d4cb20f6c06df37e51be427adc3f2d43fb83654a6df58a8a7ac996e2
+51,kiki-cala-flier,"kiki cala flier","she flies first class and gets the best deals",Female,d26f5795372fddbbe89690381ebbf7a2070c71c579e0d21193f3aa9931d1bcfa
+52,"purity-nft -investor","purity nft investor","she is an angel investor looking for the next big thing",Female,8c871c49b604a4d2d5a57a20160c5ae9d4719306c1147ce8e22ee2781bb7276f
+53,june-binary-monk,"june binary monk","she has a twin thats from Tibet ",Female,4a6279ef3678e79f72f3cb544843be32aadd618cde70dd682f90f32e9e74f8d4
+54,aisha-crows-damsel,"aisha crows damsel","she is always a damsel in distress",Female,2c589ec888e35491f0407cd1ee09e02e0f861b4283bb9d9a47adb7d300c40182
+55,bobo-crypto-lovely,"bobo crypto lovely","she is a crpto guru you can trust all through",Female,1884e806395b1f3cda22e9bc0412e878d343cf586774029960af05a4454bf825
+56,"nell-light -embrace","nell light embrace","she is an empath; ready with a kind word or hug",Female,179a392528a82429ca192efb3466224dcb158ff14639fce1906cb26c0b2d8b14
+57,rachel-mood-silent,"rachel mood silent","introvert  to the core, a mysterious lady",Female,617ed4312bc3cb71f27afec76af9f9ee896035779904523f39c90845e0758747
+58,nana-reflector-agent,"nana reflector agent","she loves her chrome fashion stye",Female,d360cd65b92183abdb4a91894efd69264a184e7659f6efca8f6c1683e6d1be44
+59,bree-busy-gossip,"bree busy gossip","never wisper your secrets to her, except you want the world to know",Female,eca5810d9d1c94545c65a1ae48c971feb03a137cc185d4ee84576701ef6ca01e
 "TEAM GRIT",,,,,
-61,toy-soldier,"a man stronger than an army",male,fc8ea3ac-59d1-11ed-9b6a-0242ac120002,fd719ef26924163164d1346c0ca9ba7ccaa046f3e3122ca4266a7e5777788eeb
-62,pipey-rivers,"a man who loves the water so much and fixes its path",male,58f69cae-59d1-11ed-9b6a-0242ac120002,84612dcf9186415ed54a6b710a6eed00d85edb106411bf1aa4dfb34910978874
-63,phiri-of-zambia,"an african woman with strength and beauty",female,24b537fa-59d3-11ed-9b6a-0242ac120002,a039cf248c32422ef9a75189492649477be35c1e6e5c7f50668025384bee0433
-64,patrick-of-bikinibottom,"a white man who loves the African culture and associates with their dressing",male,064c7b84-59d3-11ed-9b6a-0242ac120002,bd1faaa8a84043ad2375a89184f130122b60c3344f44bb01e5e09c85b435d991
-65,nobuhle-of-zulu,"a woman well endowed with beauty",female,1ee5b1ce-59d3-11ed-9b6a-0242ac120002,95dc92065218a1fe2011699abe44619d48990156ea7bbc994650b8d3c4102ecb
-66,nkosazana-of-xhosa,"an african princess always proud of her culture",female,2f1a1724-59d3-11ed-9b6a-0242ac120002,8542b4851d2db586bb0de83151e2c384b7af93566e066f9195c1b0eaec7bf4a8
-67,mandla-of-zulu,"a simple and an introvert who keeps to himself",male,d04553b2-59d7-11ed-9b6a-0242ac120002,8bb87c4b550d6c3bc7ca30eb1c4c1b4350203cb9414057d014c583f1da1a295b
-68,john-doe,"a principled guy who is conscious of his health and ensures protection from infection",male,5d19795e-59d2-11ed-9b6a-0242ac120002,e9963e4df90ba6d2d37cec7aa34e060c77e9fd4003ca60629a15a960c914bb17
-69,ghost-of-power,"a woman stronger than ten men combined",female,29c764ca-59d3-11ed-9b6a-0242ac120002,a4aaf100184ae7653c2167fa3ba8e10e6cae106e016aba18385c5f00146804de
-70,freida,"a man who is always peaceful",male,ee671c4a-59d2-11ed-9b6a-0242ac120002,bf8d8b5c17ad15d2d6415440aabf410d186fc806a6a9d8f5e5249f855bf2ba25
-71,flamboyant-tree,"beautiful african woman",female,380e4990-59d3-11ed-9b6a-0242ac120002,51bed8f52bb56e08b9c76779c1dc82acd1bcd3e6783ef2edc6463b44aab41fb3
-72,david-of-accra,"a combatant who fights and defends his people",male,1c1ef1b4-59d1-11ed-9b6a-0242ac120002,1adc1942d2e8693f52e818ad4a13e1808fc66a82f6d512deec0b4964fdc64920
-73,cally-lily,"a man who is a breath of fresh air",male,82bba87c-59d1-11ed-9b6a-0242ac120002,b6bed45d80c173d13acfe90232490575703589e119d7c5eaa968165f37e06880
-74,bubune-of-accra,"a man with honor, always conscious of his health",male,faa4b530-59d2-11ed-9b6a-0242ac120002,a3dd06e36493f4aa6454864cde78e2a4b967400c4738059d1be859da9fbd2ddf
-75,bediako-of-accra,"a strong man always ready to fight for what is right",male,fb6e8222-59d0-11ed-9b6a-0242ac120002,bee8d02be1a2f9fe800ffaba290d3059d84c68084f0682daa46a0a25a28060bc
-76,avatar-aang,"a man who is ready to save the world",male,169f93a0-59d2-11ed-9b6a-0242ac120002,6aeb4007aae1e658701bbd71891c5ed91752424b6540837cec688eb71a68b422
-77,argus-greek,"a man who feels like an outcast aand always has a battle with his mind",male,e7f26b26-59d2-11ed-9b6a-0242ac120002,01a75244e6b1c9beb275c3209ee84324950b2000e2eba0da59b2022eac0cbbbb
-78,amahle-of-zulu,"A traditional man, feeling fulfilled",male,169f93a0-59d2-11ed-9b6a-0242ac120002,b05fe787d538ac05219c38176ad7a96a67a503c92ae7412b9f381ff37eb3dddc
-79,agnar-ole,"a man who feels like an outcast and always has a battle with his mind",male,f3f11fd0-59d2-11ed-9b6a-0242ac120002,734242a1090f7da32433681810b66232c9b4c6eb0c559f8ff9760599c21dcc45
-80,adom-kulu,"a Ghanaian model, proud of his culture",male,00f6589e-59d3-11ed-9b6a-0242ac120002,218802c6bc545672e768681da616162fccd19e48ebfd6eb7f49f6a942c6ed439
-,,,,,
+61,toy-soldier,"toy soldier","a man stronger than an army",male,f27a6f1b5c9d0b351f667084e95dca85d549c2d08079967d844b9626a06f28a1
+62,pipey-rivers,"pipey rivers","a man who loves the water so much and fixes its path",male,246ba6b3a6c8cdffb46f821459303b308703ab434cabb197d7e41d627e501d19
+63,phiri-of-zambia,"phiri of zambia","an african woman with strength and beauty",female,1761d70541f519c79775938fa1fc0269e238bde1dcd225289fb27df39a38a41e
+64,patrick-of-bikinibottom,"patrick of bikinibottom","a white man who loves the African culture and associates with their dressing",male,6b3adaae7fbea864831d0f7f81742605f83b34c98425442b29008c3f7de73775
+65,nobuhle-of-zulu,"nobuhle of zulu","a woman well endowed with beauty",female,ed20604e7172fcd893c1ab289a9a3f7e6ca096053145eed7ad062d6b6748afd1
+66,nkosazana-of-xhosa,"nkosazana of xhosa","an african princess always proud of her culture",female,b79b3256a1195e1fab8fd1572c053b2bae7b70fb7ba922d862d13ad4c89feae4
+67,mandla-of-zulu,"mandla of zulu","a simple and an introvert who keeps to himself",male,3dbf7c19f47f6fded2db154441adf5a9f4db3a46e2543afc1d31503c0dcc883a
+68,john-doe,"john doe","a principled guy who is conscious of his health and ensures protection from infection",male,74dcf7ac764e84e7614b4f83979988a427bc64e257dc240c21d3588e8626d4e3
+69,ghost-of-power,"ghost of power","a woman stronger than ten men combined",female,e54f68f9d826982c9ef2f7b921732f144d839abbb717a00330893ecd23f50933
+70,freida,freida,"a man who is always peaceful",male,0e47973664ca4e7beb84531189577bc074cd3526bd64f6f405067597623a2b12
+71,flamboyant-tree,"flamboyant tree","beautiful african woman",female,c4b7d8367ab4d54271cfd4599b2b1fba5502ca4f062571e08a3fcd06907711d0
+72,david-of-accra,"david of accra","a combatant who fights and defends his people",male,d8545218e6e08b4e8111fa0131b15e61ad51d08e8faf381a1fd70502ac6cea72
+73,cally-lily,"cally lily","a man who is a breath of fresh air",male,5db62cb9023c1cdc969c387f80de33da6fc31918ca56bc352aca0c9311e6821d
+74,bubune-of-accra,"bubune of accra","a man with honor, always conscious of his health",male,388f003583c9237b2cedab290ea8cba830dcaffa05bfb536389b792074ba923e
+75,bediako-of-accra,"bediako of accra","a strong man always ready to fight for what is right",male,fa2f5acc376299027241ce02264580e65d80383d1bfdafe02433e68e95e953ea
+76,avatar-aang,"avatar aang","a man who is ready to save the world",male,9da6f4ad0b8fe064f76a5d993b18de7a31835e02ab57f4d04593602543710655
+77,argus-greek,"argus greek","a man who feels like an outcast aand always has a battle with his mind",male,db0d6bb2248f71669c952ab57d8d844217dac43e786a93e7fa6842eaf3733e35
+78,amahle-of-zulu,"amahle of zulu","A traditional man, feeling fulfilled",male,3eecf1d8263720f7ae0911cdf9398623566ec3a7c4605724476f36a4284026e0
+79,agnar-ole,"agnar ole","a man who feels like an outcast and always has a battle with his mind",male,c360749da4190c06e96c5a2b8d3db896c92d7a345b681512ccf7d04f03fe116a
 "TEAM PRYBAR",,,,,
-81,,,,,
-82,,,,,
-83,,,,,
-84,,,,,
-85,,,,,
-86,,,,,
-87,,,,,
-88,,,,,
-89,,,,,
-90,,,,,
-91,,,,,
-92,,,,,
-93,,,,,
-94,,,,,
-95,,,,,
-96,,,,,
-97,,,,,
-98,,,,,
-99,,,,,
-100,,,,,
-,,,,,
+81,segun-baller,"segun baller",,,40e62e213a4d9328f6840c3fba98cd44bd9fc3e3f1a84c9e2000fc2547c77453
+82,bolanle-pepper-dem,"bolanle pepper dem",,,af67535b013d268c46f3c5bcf0633d21f9ba89962df18d9083f7b38fe6e24daf
+83,tayo-tailor,"tayo tailor",,,9d27ca4a6a74a764b8333992cf89f34dcdcd80876db9d6826680310660a3933d
+84,ajasco-comedian,"ajasco comedian",,,9905b59f1c340170202df498c16e6b0b9d82fa123f9c7e75b82ac7923366f210
+85,tobi-babyboy,"tobi babyboy",,,9b800af551455407d686246020e10926446475b4ccc24aed00a93b802b0ae713
+86,esther-sassy,"esther sassy",,,27be2c9379017e6333af1fefa6c051dc067f7d0ef6b8b9e68d8875793b6953e1
+87,ozo-fineboi,"ozo fineboi",,,6fbdacb307f6ec98c84c32fb4c61ecc5263bca687be0d68a543bb5dc441ae450
+88,ade-party-girl,"ade party girl",,,7e0b7527635080ea75f0377e797601d7e998a02fc4e0845c478686479e432cd1
+89,john-casco,"john casco",,,5156b98f2b4a1b7062eeede55c94eb87394e5601e84c43bc466e9d77863611ef
+90,agha-uwa,"agha uwa",,,973eca7ac6b73a70870223adcff78acef007172717ca6866c1182420ba6bcb4b
+91,udeme-great,"udeme great",,,6f9897099cfba28a3010f2a6a9ca95c180ad2eeb8e98a35a763ee23fb20126e2
+92,femi-tech-bro,"femi tech bro",,,23684b702beb20f428fb34588946a1a240f06e520caaefd9c899de810141df07
+93,sai-baba,"sai baba",,,5ac1b8da35a85f002a96d092325f54d56ea9901056a57f33671b8f9088b669a6
+94,omo-pastor,"omo pastor",,,9e49539f30d625b6890e03020457e517b8a1abce105cade3eb09e2fda7f06974
+95,obi-container,"obi container",,,05f6869fe0e6cbc6e2702c129c3e772d47a491e20f05401747d7aa6bf06c0223
+96,erigga-international,"erigga international",,,4fc0849298339b3ae0378eb874e7aeb35e67a1c033a83bd2e525d0ff2eb0c012
+97,ayo-web3-bro,"ayo web3 bro",,,ef252b066e3c09132cfe2bc4811840f3bf79483e6bd9c9265045c39c8ef6a4bb
+98,phoebe-queen-bee,"phoebe queen bee",,,bd281c8a5acb4ab388a4384cb6cab3dd80f5d4fb73447b7b083c7ae9c4991311
+99,rachel-warri-babe,"rachel warri babe",,,711a91a884a6f4fbe616b54c4230ea925ca24d6be9b20239eaf4fd91cb4192b0
 "TEAM CHISEL",,,,,
-101,,,,,
-102,,,,,
-103,,,,,
-104,,,,,
-105,,,,,
-106,,,,,
-107,,,,,
-108,,,,,
-109,,,,,
-110,,,,,
-111,,,,,
-112,,,,,
-113,,,,,
-114,,,,,
-115,,,,,
-116,,,,,
-117,,,,,
-118,,,,,
-119,,,,,
-120,,,,,
-,,,,,
+101,adebola-omo-oba,"adebola omo oba","Adebola loves soft life with her fathers wealth",female,3462965f0e47659cb53a4b3a4bee977471c8635f115bbfd5961e3245d0456b34
+102,chichi-the-dancer,"chichi the dancer","Chichi loves dancing and party",female,f860675d164024c1317f5552c10d114acbf195ae94cf5c1a57da173a2282a813
+103,hammed-the-farmer,"hammed the farmer","Hammed owns a farm with his family",male,459e9c1f95c5f8de675a1685c6053830d98aa80182d9a6b72a8e85f53bedebef
+104,farida-the-tivlady,"farida the tivlady","Farada is a traditional TIv woman",female,14cc803acfcc9ed0a9c9fbf5dcd62862b0084dea2df176573e1e35381e46234b
+105,hannah-the-singer,"hannah the singer","Hannah loves singing and belongs to choir",female,baacfadefda31a1a8c53609163a535d1a5922317a230b36222724575e67d85fd
+106,nonso-the-igbogirl,"nonso the igbogirl","Nonso is an Igbo girl that loves money",female,1c1d3d973b4f47ccafaf75e99070bda424134add60b31bd2a56bfde90bd149c8
+107,shade-olori,"shade olori","Shade loves soft life and makeup",female,53498d94f759b4eac4153c258d49291418a72ae39787120839a5450ba1d5113c
+108,quadri-the-teacher,"quadri the teacher","Quadri is a devoted teacher that teaches mathematics",male,62c47ebb24094d1e4f8b2b6610e53cba912c361836aec6fa308477b640879325
+109,Ifeanyi-the-dj,"Ifeanyi the dj","Ifeanyi is a music dj that performs at events",male,5370f24f4e469c0362d32042748f1ca233b8aa96457737b3f07043f074133c26
+110,fayo-the-yorubademon,"fayo the yorubademon","Fayo is a youruba demon that breaks hearts",male,79bbcd1187678b425dc85e9189b69ceea0c5bc9dc7b4cc977bba1cb784571e80
+111,nkechi-the-actress,"nkechi the actress","Nkechi is an internation actress that acts in hollywood",female,9b3e095de52e99334828c8f7ee877a72e2543b13098a8d5f2deb31335f1a5156
+112,hamzat-the-mallam,"hamzat the mallam","Hamsat is a mallam that changes money",male,7c2071e7049564111d9e2d5d8b10c06647df023184708e3955a423e70c79c47e
+113,nnena-pretty-girl,"nnena pretty girl","Nnena is beautiful girl that loves to talk about her beauty",female,48715d5a6f1e6e0a18693a385beca989c335c391b529327c8959194961e266b2
+114,tunde-the-boss,"tunde the boss","Tunde is a boss that orders her helps around",male,73f1be7e4ac0af1bf05a5720050f58383f0823b71c439dc14207b00df64d60e3
+115,nnamdi-the-barber,"nnamdi the barber","Nnamdi is a baber that does celebrity haircuts",male,b76e491c4a3f6244372c36b934144c413ca56527adf61deae58429b6412a5f45
+116,amaka-the-hypepriestess,"amaka the hypepriestess","Amaka is a very hyper that she hypes in the clubs",female,41b51a34c6ffeb978f4ca4bd2a834f58f952ead6c591a2ef3379556f1c6cfbdb
+117,kemi-foodie,"kemi foodie","Kemi loves food but cannot cook",female,cec9ebc0459f8d34187ec38cfab7a45cea6375d8914d1d5fd58d52f92eb04270
+118,ada-the-fashionister,"ada the fashionister","Ada loves fashion that she rarely repeats cloths",female,eefeff3503c03f1e2077456cc476ae605f40943070adbef117510b3eb6db17e3
+119,kayode-the-baller,"kayode the baller","Kayode loves life and lives it",male,16dd8f574bbd716578d509aabf5ba6644c6f3697ab70502812710bc5210300df
 "TEAM BRAINBOX",,,,,
-121,azikiwe-popular-trader,,,,911ca4c367ed2486a01976b9fbff1c4926045a36d57a94e41a5791bf2651cb84
-122,obasanjo-funny-guy,,,,17560e4fade591dd1fd71ddf5c738380956418adc6e7b9a9302d93615c126e93
-123,yakubu-village-chief,,,,43044546e625dc70b45158da20e9aef87324aed7f1d2c0f3e8ac6315134cc79d
-124,abacha-loves-smoking,,,,181e3e6dc7d44da0716b77afcdbea00fdacbacb90eecc2a7e93e055fb89eca1c
-125,johnathan-good-leader,,,,be2c95c2eb66d8a0c85b5760ab7494e7c2fe033b8842359b1adb38606658b54c
-126,johnathan-genz-kid,,,,f89d96f2dac2a689e3f6f92f1df30fc707f363c21cd5161edd3c59577a9d7beb
-127,eddy-the-community,,,,b7ec93cc4643faaeaa2de097cd7671b8dc91855a67b3835ba055780b6e247e6e
-128,olu-the-oba,,,,930d0ad9538d2853c545f24a5599433df0727b5bf7d3c4e94481cd9360de3fe0
-129,edu-the-biggest-trader,,,,9ac81b132307c7929abdfb3c8f69dd4101e711898d5d28914f4980e4e6c811f7
-130,james-importer-and-exporter,,,,18ca863397c40565c3b8ec3daf9fdd713bd33b4b66f6f72424df9d4e8f9516ea
-131,lanre-the-dreaded-guy,,,,e80ff258c4452986cb97f22be9223b41e9bff11256ca32ae3c16f73ef42ecff2
-132,olamide-the-street-boy,,,,55cfafcd0fb020a22bc53a1af1d7aea6d83b44370cc280d63eaee5d1b5abf4ff
-133,uche-peace-loving-man,,,,af6aeeb31a0a2d4a3421172f6b3a1a911e4758af10529d90ff928cca020e760f
-134,dave-the-tech-bro,,,,1c08430b2d929580762329b3aa5945a22b1bc45e9cb5e3bef32e8388774461ce
-135,obi-the-biggest-humanitarian,,,,772ffb874804a9e5ee1ee81df293951117c2b01cc348b20df8ce10193ae6e299
-136,precious-the-emotional-girl,,,,659ce9d4d78137adc1dd83dc6d4da0a74161d9997431bc00020eb6620a8cb732
-137,ella-serious-minded,,,,015196598a7afea75067d315856e2dc15fee6c2551f8e7da90c8d3e30857662f
-138,cynthia-cute-eyes,,,,fb0ea35af3aace92a069f69a62e80627a4ee0fd2bcacda174a27cbb07c2c8746
-139,mary-with-hair,,,,78cd6ce7bd55dab1b65dffaa27ccf9f3517e0ba827b969cca3274be090ab51dc
-140,ada-chewing-bubble-gum,,,,8bd3ffbcdf564860833aae69dc85662e42b960b25bdcab6fa468f5816469ff19
-,,,,,
+121,azikiwe-popular-trader,"azikiwe popular trader","Azikiwe is a popular trader",Male,407eea4d17ed9b59d59996846b19d9aed5ee066c90ff14304ce08a2778e87d65
+122,obasanjo-funny-guy,"obasanjo funny guy","Obasanjo is so hilarious ",Male,a25a45ac0b5cdb3128baac75c10ef864957349148f9bb797916b2738fdef33ee
+123,yakubu-village-chief,"yakubu village chief","Yakubu is the village chieftain",Male,5f05c6560009d210f3c64ee04edbe00759602595532425737f2d2dddb47a3b2d
+124,abacha-loves-smoking,"abacha loves smoking","Abacha loves taking pipe",Male,ed94383c65faa7ba4cd28505194892456113d99c31fdedf9cde5eae396b8e075
+125,johnathan-good-leader,"johnathan good leader","A very progressive young man with positivity ",Male,34e37b27d11b596b42b0c3f8b1458fdba6ceddc1e6f4b6631c0d72b96d0f4bfe
+126,johnathan-genz-kid,"johnathan genz kid","A child of the moment , all fun and cruise ",Male,9c6d5788658a63243826697fc99031df466cbdbe74bc2c4dc2223ac7f92a568f
+127,eddy-the-community,"eddy the community","Man of the people ",Male,7e3e7ca1f99341a632201f50eea7ae84c90f11285b1df6f6316b06f8bb9fafe9
+128,olu-the-oba,"olu the oba","The oba of Ofuk kingdom ",Male,67e5101a02cf7f0aea44817b67c6200bc7d9f7ce31322f6076fb0f5229893ab3
+129,edu-the-biggest-trader,"edu the biggest trader","The biggest merchant in west coast ",Male,795c30346086f4b7ee5a7298c168bd3a0ac1749697f08d89c7ed31f83a14fd77
+130,james-importer-and-exporter,"james importer and exporter","Sole importer and exporter of spare parts in Africa ",Male,6984f2ddef6164025e40bf96d6086620b3484cbb9b71170fbdc107d6b6f5bd0c
+131,lanre-the-dreaded-guy,"lanre the dreaded guy","The wayward tout",Male,c2ffcf09d71dc1c796bf68f5564e84a0f61e9bd29b8a8a597b0252972c956f6d
+132,olamide-the-street-boy,"olamide the street boy","Friendly street gang",Male,0b869a113dbd24997a0e748094190291019d03dcee2bd145772ef22b4142c952
+133,uche-peace-loving-man,"uche peace loving man","A man of peace and discipline ",Male,f7d83858bbf683480a9116219e26266059d74e228a1db731ae44ed597e33f856
+134,dave-the-tech-bro,"dave the tech bro","Dave the web3 geng",Male,c05770d148d1af7906fc4eaec112bd9a12d91eb73dda93ed80930c26a6b85c1a
+135,obi-the-biggest-humanitarian,"obi the biggest humanitarian","The biggest helper during the pandemic ",Male,8a0e196b2020348f429ef61b3e0cbcb7546ea881328c0c131cb9e15be390d0c6
+136,precious-the-emotional-girl,"precious the emotional girl","Soft hearted and sensitive precious ",Female,a81c49360e9d984dd856babcf9a125da7b60300f3ef32dde2821387f25aae9e1
+137,ella-serious-minded,"ella serious minded","Ella a dedicated young lady ",Female,0e1bb8437b05177906f8a560ec9b5a4e1387958a35c1e0d4350b79688cad3740
+138,cynthia-cute-eyes,"cynthia cute eyes","Cynthia with a priceless cute eyes",Female,8544f4437f295fb8da038f66c1448c42311b6d9038feea3a8e31d5e212e261d1
+139,mary-with-hair,"mary with hair","Mary with her beautiful Afro ",Female,c4c5613159121410b5dea2aed81a246b1ab8a348471bfd30389778d186cca100
 "TEAM PLUG",,,,,
-141,,,,,
-142,,,,,
-143,,,,,
-144,,,,,
-145,,,,,
-146,,,,,
-147,,,,,
-148,,,,,
-149,,,,,
-150,,,,,
-151,,,,,
-152,,,,,
-153,,,,,
-154,,,,,
-155,,,,,
-156,,,,,
-157,,,,,
-158,,,,,
-159,,,,,
-160,,,,,
-,,,,,
+141,viganem-the-drummer-girl,"viganem the drummer girl","she loves jumping a fence to play drums after school",female,24e2985fe86ed949dae364a1041837bf674d3b68aa600e3c0fb9c9c6115df14c
+142,"lenusuka-the- big-woman","lenusuka the big woman","The lady that loves spending money and buying everybody asaobi",female,ab0ab2bc8990e4917fc31cd09fc970d08255f0a3fa5e7eef8a92a1c9d3ab3345
+143,enepua-the-clout-queen,"enepua the clout queen","The lady that travels all day and enjoys snapping food at restaurants",female,9f8ff11e571771fef4720397652e5de7413ccbb52f5c26090f7d8003f381d0f9
+144,usifong-queen-of-mushin,"usifong queen of mushin","Changes her hair every 2 weeks and cannot finish one pure water",female,80837ef735e220844db7eee6560940c8a7be21560e91eaffe7d5c3116bac351e
+145,akinyim-the-agbaya,"akinyim the agbaya","Always playing with small childrens and mostly small girls",male,4935b107b93797c0e5ddcd570cc4f8ee091a30c7d75f3acd2517f263fbc96da7
+146,zawadi-mr-sleep-everywhere,"zawadi mr sleep everywhere","Likes sleeping in the weirdest places especially in clubs",male,6c497470312193d73287b75ed980ea832bc363b8ed390cdf8e82881de54c0e67
+147,chepkirui-mr-self-love,"chepkirui mr self love","Likes taking care of himself and spending on himself",male,f1eb570a30e8a315d6befea22db6fd567e5db68983377ad33dbdbcc28809ec6a
+148,naserian-mr-fear-fear,"naserian mr fear fear","Has never slept with anyone and can not kill cockroach",male,43b3040e5785f9cee10d80fed573aceef4b45f315ef2a3202baa77cf79e5cc27
+149,wawuda-the-ashawo-of-africa,"wawuda the ashawo of africa","Brags about his body count and follows skirt anywhere",male,0b8ede9f9f3278d82e5a97b649b02cc76982599225751d824274c0dd542427b6
+150,kerubo-the-igbo-smoker,"kerubo the igbo smoker","Loves only his igbo and is happy when he finds an old blunt",male,cae88cfc134643cf48bc6c20fbd5cc0846561d369b2d3e07d380211c774ecaa6
+151,"rehema-the- olodo","rehema the olodo","Failed primary 5 eight times and like playing football after school",male,a89da4bce64669b80252eb408987bad0b1718dcbf888230f84ff7d85c6b74c18
+152,nekesa-the-brainbox,"nekesa the brainbox","A proposed elite who cannot write a simple speech",,d1432634981a4e183bf50b2e5e08056931c8996d1bd518ddd3b8e798a9dbfe0f
+153,kiokoli-the-slowrunner,"kiokoli the slowrunner","Always running in every race but never making it to the first 5",,e42bcf927939607a8b4e33af154ca33c2cf14ff9f516901fcfb0ebededb95ff8
+154,adjuani-uncle-wire-wire,"adjuani uncle wire wire","Mugu money spender that loves spending on women extravagantly",,6f5f56c1172f5d637b76510a2846e72f6fec084fa00ab75c66638c0b25c2534c
+155,ajobaru-a-serial-killer,"ajobaru a serial killer","High end assasin who cannot survive a day without sex",,86c538e2436a37b86f2f987f0381bd623a5b4dce3d4417b83e6ad03c9c758a43
+156,effiadem-the-fireman,"effiadem the fireman","A retired military general who always loves shooting at sight",,e46eda1ff3d113344d252c8ac663a432344acb1667b559fbbd2bfd5868f4cff7
+157,deladem-the-commandoo,"deladem the commandoo","The nerd who has watched all war movies but cannot fight a kid",,3f4cf4e5f7c76395f13ec160a88c8fdd06150ea7cb63cc8776c0e0ec7a9221d2
+158,dogbeda-the-monger,"dogbeda the monger","A fisherman who pracitically live in the river",,aaa6b3aca4478bfa2ffec8d343711716b7017e06011bc51e7d47bc3853c721b2
+159,enyonyam-our-slay-mama,"enyonyam our slay mama","Posts new pictures everyday and can snub for africa",,31610d2deb6c1eca5225da976e43ed6b6c4ce9234b7fe968fd22b6231d782f68
 "TEAM HEADLIGHT",,,,,
-161,,,,,
-162,,,,,
-163,,,,,
-164,,,,,
-165,,,,,
-166,,,,,
-167,,,,,
-168,,,,,
-169,,,,,
-170,,,,,
-171,,,,,
-172,,,,,
-173,,,,,
-174,,,,,
-175,,,,,
-176,,,,,
-177,,,,,
-178,,,,,
-179,,,,,
-180,,,,,
-,,,,,
+161,funmi-the-fashionist,"funmi the fashionist","funmi enjoys fashion and she always takes opportunity to showcase her wardrobe",Female,599e01b4eaa7a687e27a518fb4876eb0e05f5f2581bfc3e7f22dd1cbce8dbe50
+162,bola-the-funky,"bola the funky","Bola is a funky fellow but she has another personality no one knows",Female,ff9fd808625598d7ba206cca0b8b69fb74c8a7b707d3b36223aebca5de2a0f63
+163,bimpe-the-runzgirl,"bimpe the runzgirl","be careful with bimpe, she can run you strong thing",Female,1563fe00327529ec3b2fa38d99484548798c3426cc84bfd5af75f7e85cf09f8f
+164,sola-the-queen,"sola the queen","sola is a princess. she's got the mind of a queen",Female,224a2cd2f0efbb6a9329a8617ce8b0b7e5c3b8faa7e4503adae90dac51444dfd
+165,temi-afro-girl,"temi afro girl","temi is know for her funny haircut. this time, afro is up",Female,f7f078f3b3ada04e13f606f4813c0483a04a87f8007143a179502ffe463073d9
+166,jonny-the-bravo,"jonny the bravo","jonny is our local police. he breaks boys free",Male,1c4571222d76b176a135cad79c3d0f4fd6ef2857678ce3a92e285340dcc7e651
+167,tunde-the-bigman,"tunde the bigman","tunde is the big man on the street. flamboyant life style is his identity",Male,605c1a438ed05a2227288e40746a6e6e06c5532225d36367acac902b910473c7
+168,joe-the-plain,"joe the plain","plain and simple. no one in town is more gentle that broda joe",Male,e521fc268ae1c3dca9b420072d317deef9333585ae7d9721e63003a146a318a4
+169,wale-sharp-guy,"wale sharp guy","wale no de carry last. the thinks and act fast",Male,b2703c09657b23e82bb4d31c42b8811377aa663a7f27e316bcec1bc4786f897b
+170,dele-the-snoozer,"dele the snoozer","if sleeping were to be a job. dele will be the world busiest man. set a bed in a fury furnace for dele, he'll sleep.",Male,e0e166fadfb5a1cdcfb66ed610b0f081136ebd36d68e5738a4c9ba83a6ee969a
+171,"father -of -tolu","father of tolu","baba tolu is a proud father. he will sell his soul just to see tolu excel in life",Male,d59bd636377a4e44fdac89a6ae097da463fddfb5c5608926c2d520c7aa674a00
+172,emeka-the-chief,"emeka the chief","chief emeka is the pillar of the community. just and fair to all. the real mazi",Male,bdd1bc88e3e451770f57396a0d5394a55532b3a77557e9757a90f9763549ed0d
+173,lawal-the-drooler,"lawal the drooler","lawal has only 2 business, alcoholism and alcoholism. it's only normal for him to drool afterll",Male,216994eb28716d8f6dd7af72898fd5545d196d00db2cce1d8a566bd14d419a27
+174,solo-the-messenger,"solo the messenger","solo is a multitasker. you need anything done in your home, solo is your guy",Male,8ee9bfe4bf8df7f271c3174e85ef58a0093ddc147abc315d94abf1a2cf46abac
+175,femi-the-honorable,"femi the honorable","honorable femi is the modern day politician. everything he does is only to further his political career",Male,42dc972640b876a2ab724a35b3d99f4204b4eb624f56c9844602db5e53ecc6f3
+176,friday-the-bigsboy,"friday the bigsboy","friday always live up to his name. every friday is for the party.",Male,209ed3dad71130b7ad2a365457d8e5e0fc747fe35bb4c9262d5ce0d0768d513e
+177,kweku-the-planter,"kweku the planter","kweku says he did it. kweku dey plant Igbo until he was bursted",Male,2d991e0d0471648ea48d6d8ea15abff2f46da5cda3c56730d4fd32329d2b8e4c
+178,2pac-the-remix,"2pac the remix","2pac is alive in him. his style is exactly the same. upcoming artist",Male,b1c54ff8ffbdb69c4ec6b600a637c30147481d6de7f36fccef6f72e7a92f2969
+179,tope-the-influencer,"tope the influencer","tope is a famous influencer. loved by his followers which keep growing everyday",Female,b27f33999710d8c17470cfccef10d1c3c68099cf9c9024f3597f6efde1afd70a
 "TEAM CRANKSHAFT",,,,,
-181,,,,,
-182,,,,,
-183,,,,,
-184,,,,,
-185,,,,,
-186,,,,,
-187,,,,,
-188,,,,,
-189,,,,,
-190,,,,,
-191,,,,,
-192,,,,,
-193,,,,,
-194,,,,,
-195,,,,,
-196,,,,,
-197,,,,,
-198,,,,,
-199,,,,,
-200,,,,,
-,,,,,
+181,beauty-of-town,"beauty of town","She is the most beautiful in the neighbourhood",Female,73c3e92ab75eb6454b63d73d11bbca8977aa400e356a39e7c057ae54def5a5c2
+182,lola-babe,"lola babe","Looking hot as always",Female,f6720ebb09e8fa5829d29986f2d0d8e4ba7fbb27b3361a9f586de9e496e563d5
+183,cardy_h-sharp-babe,"cardy h sharp babe","Cardy is the sharpest amongst her friends",Female,bfbd3e6c97b711c85a99fa23f9ab485b7dc9e8e7a9424d744c93ca4afaf3e35b
+184,bella-the-baller,"bella the baller","Baller for Life",Female,9e972c96a417d0fac1f9d8bdc6ba0d35a189e3026df6ff36d9450cdb380bda8b
+185,milly-of-roses,"milly of roses","Her lips so red like a rose",Female,4edb15a505470f8be98c7e78b6e91f1e9a88b35df08a5cafdda53525c92abecf
+186,Preciousjada-the-viper,"Preciousjada the viper","Her words stings likes a viper",Female,d95ce614b85c041bbc4842168b00e58fb3edc1af44ce6c237485b0590973cc8e
+187,lolly-of-NY,"lolly of NY","Most popular in NY",Female,c984d38f7f60ba45408b53d6753622f304252d740b90032cd7db6cdbdf9c6832
+188,Disy-the-dancer,"Disy the dancer","Dances her way into any show",Female,45448afe68fef3e9b9a447ff19d6e2b91dc528b443958fce83f569e78b7727c6
+189,Jenny-the-great,"Jenny the great","The greatest of our time",Female,371eb4b591cca7308531c80d39517da2a1222ecbba314be271bd60acc7b42b0e
+190,lolly-the-pop,"lolly the pop","Seeing lolly makes me pop",Female,d0d0e91f305fa190945a0235eb52c6fbac7bb0f085b70f053a7d402e5a7420d8
+191,disy-the-queen,"disy the queen","The queen in her own space",Female,909353b07a189050cc0639f81625cbdcf428536170178bcb13e1710a591c6574
+192,JennyP-of-Lagos,"JennyP of Lagos","A well known celebrity in Lagos",Female,eb6791300402fbf9d2a4597df1c21d7507380f6b953b08a80b8a76afc13fba1d
+193,Jada-of-life,"Jada of life","Her business signature",Female,0cbb6d1f54b9b2dd1c9faf39ca1d4890d5031b0bd7879c0cd40a2b575ed8032f
+194,Sandy-the-rapper,"Sandy the rapper","She just loves to rap",Female,4fc538ae007ccf50774189c15b68c27d6d39ecf6647ab6c2a95f3d60746e19e9
+195,Dahila-the-genius,"Dahila the genius","The genius in the family",Female,b439969965b8e979252d4675879e89d5a14b888a590f004bb070ba48e91a6830
+196,Rosemary-of-Yaba,"Rosemary of Yaba","She has a cloth store in Yaba",Female,58d2ea400653066a20ecad4a6fa5f921cc36c3e92818fa521032725285266770
+197,"Jennifer-of -island","Jennifer of island","She goes on vacation to the island",Female,dd43124d273b070688c5e0e9233f0eb67dc6421eb9eb9718d2813fc2873a0524
+198,Opeyemi-of-lekki,"Opeyemi of lekki","Opeyemi lives in lekki",Female,2d4adff1b70a81fddffb3725c216a16cbad2355c7f0490fbc51dc20220c1e0b7
+199,Vicky-the-artist,"Vicky the artist","Brings life into what she draws",Female,6743a4ee42c2afc39ffea2390fdbb3b691d1874a23ac8e153b65c851d9d62d1e
 "TEAM GEAR",,,,,
 201,,,,,
 202,,,,,
@@ -239,224 +219,203 @@
 217,,,,,
 218,,,,,
 219,,,,,
-220,,,,,
-,,,,,
 "TEAM TAPE",,,,,
-221,,,,,
-222,,,,,
-223,,,,,
-224,,,,,
-225,,,,,
-226,,,,,
-227,,,,,
-228,,,,,
-229,,,,,
-230,,,,,
-231,,,,,
-232,,,,,
-233,,,,,
-234,,,,,
-235,,,,,
-236,,,,,
-237,,,,,
-238,,,,,
-239,,,,,
-240,,,,,
-,,,,,
+221,hng-newbie,"hng newbie","A confused hng participant that cannot understand her project",Female,f9ecd1dd1a5ead8abd0119f31f7473cfd2acd13b4f88842a3007a3c6ca3a66db
+222,nene-caroline,"nene caroline","A housewife that loves taking care of her family",Female,6a3361d7842ce2364a4af69f0270f355e2573bace5693d09409dd3a1fc7f3cd6
+223,wazo-partystopper,"wazo partystopper","A Nigerian aunty that loves to attend owambe parties",Female,86bce3a2fca3255eb2b718df871576e716ad81ee997b134a1e7102f91eb3d3e5
+224,melanin-janet,"melanin janet","A young lady with a soft personality",Female,b0258a1033304c6955b5f884d461b035ab27a05a764d499f6e5281e9a70217ad
+225,leo-sugarmummy,"leo sugarmummy","A middle age wild yankee returnee",Female,ccb59a3a40ca460ca0027ee657fa24ab826c78889b7a861d753be5f8918dc5fc
+226,novice-joane,"novice joane","A princess worried about finding true love",Female,9f1d5448fefbf64c9e3ffdbb745942162fa538abdbc1a08fcda76097d4ccf3ab
+227,goofy-simbi,"goofy simbi","An eccentric teenager that loves music",Female,456b8083eeb05875ae26def3d2773e734923511b5879fea4250347a3fa705745
+228,akwaaba-ghana,"akwaaba ghana","A depressed gothic introvert",Female,cc1706c03f4967c7de7d5b2812a4fd571b31b516c9d5780d958aa33ba5a86dbd
+229,aunty-toyin,"aunty toyin","An oversabi family member",Female,434034d8ef8aa515c0c73b88346705b1e2e647ebd893124b0245af7947a58ac1
+230,pretty-hauwa,"pretty hauwa","A young bride involved in an early marriage",Female,ce97b70d343f1f5bf27d3d5976f49bda011932485f6bb186de80be60e8afbb20
+231,chimamanda-enugu,"chimamanda enugu","a young lady born during the war",Female,8cda6ada29f2fe95492023d87729ec831b5c4bcd93e36c688f6408f113b95896
+232,kente-solape,"kente solape","a respectful and diligent princess",Female,0f6fa1a609485c4f204eaec8cf0817f885f2ed1648d2838f10aae1c3977642bb
+233,vamp-karishika,"vamp karishika","Queen of the darkness",Female,964f8f94d81d8b710ad09195be8a0801033d5d5a09d228cd2e93ff05d9e040af
+234,genz-monique,"genz monique","A sassy lady with her own vibe",Female,5e21652fb66e0bfaac81723326c9b44b3af35c9517e95b75146db924f5a5e333
+235,femi-boltz,"femi boltz","A driver hustling his way through life",Male,85d912dd82bf3f45382782a6dcac0529ac053ea62785c0b61103de42b5ee3887
+236,agba-tech,"agba tech","A tech bro that loves to party but has bad communication skill",Male,90695b9816e7c0d0a6f7bb5dcf0144697d6f1e5cf4ad625f4133fb8cd00588f9
+237,brian-richkid,"brian richkid","A trust fund baby that does not know how to manage money",Male,a653f6641ada6cc8ebf572ef676d84cc0f01abc8cb609ea10e6dcdb0781f71f5
+238,nandi-zulu,"nandi zulu","A fierce African Queen",Female,238abdca427c5d5844bedab77ee83f06a736c80a8be1f937a9ef2a6a44370771
+239,ade-demon,"ade demon","A lekki playboy that makes money from crypto",Male,d4d771479005b6c5bd45b76041ddeca51edfebec10c41adc650482d7564d39c2
 "TEAM AXLE",,,,,
-241,,,,,
-242,,,,,
-243,,,,,
-244,,,,,
-245,,,,,
-246,,,,,
-247,,,,,
-248,,,,,
-249,,,,,
-250,,,,,
-251,,,,,
-252,,,,,
-253,,,,,
-254,,,,,
-255,,,,,
-256,,,,,
-257,,,,,
-258,,,,,
-259,,,,,
-260,,,,,
-,,,,,
+241,bobo-alinco,"bobo alinco","Alinco always in the mood for play",male,64bed600194df1b0b3933fa6366079032be881c9ce56c11483409a1ab899bfeb
+242,chi-lastborn,"chi lastborn","Baby of the house, the lastborn of an average Nigerian family",female,e26fa9ecd91cda18a4ad79a263d8a11c1d01bbfb860cb9f77540bde16252e2ec
+243,uju-robo-robo,"uju robo robo","An aso-oke business woman at balogun market",female,f053ca992e22852df3dc4997149a8213df5642ec2e3417d4edd26b429ee2994b
+244,yetunde-anifowose,"yetunde anifowose","Old money lady who was in UK before UK was UK",female,77c0a7f8f55d71953f618a68cbe5b93d5aeab41b84649bb1703fdf89f76f117a
+245,dumebi-jjc,"dumebi jjc","Innocent 100 level girl wey never spoil",female,88e1d9ca408039b844588f5ddf069adbaa5967f386be058ebc49e633ed6b92cc
+246,ukwu-nengi,"ukwu nengi","Well endowed woman who will always make heads turn",female,e1441b3cbfa76997b23c7f193a2b9e40ad8260d0c1834bb5136ec9c935fb20f5
+247,nonso-malay,"nonso malay","Man on the move. It is either ego, or money my bloder",male,9feb17f0e3207f806ffdef255be98a869b04e3d7ddf21745cf3b81850820f39d
+248,saro-texaco,"saro texaco","An oil tycoon who dominates",male,4bf44a05f87262ad2eae1b64c8e92efd7ea84ef97f7a458f1e000a960e3234f8
+249,akpos-agbero,"akpos agbero","A Warri boy always in the mood for violence",male,6e1ee4c14683e050fc3ca779aa9d061a288845c6235fd0a195391eb76cb83d3e
+250,kasali-danfo,"kasali danfo","A danfo driver popular for his positive outlook of life",male,04f5641afb7d9fbb8adf0e9db989c44068a7e36a37442c9c60dd5dab2a9634dc
+251,osaz-benz,"osaz benz","an Internet fraudster who hails from Edo state",male,a72a04e7bf26aec0a13d4965b9f85a1c471a8c54565346712ce57272126d4022
+252,kareem-kasanova,"kareem kasanova","Abuja big boy who knows he can get any lady he wants",male,bd37c5d26568ee4397fe68947299f156b4b47140c0ce6c17046730e8767528e6
+253,mayor-of-uyo,"mayor of uyo","Essien is a top Lagos businessman who hails from Uyo",male,fd90677c1be359502cea9ebdf080dafbec75f1174aef0953852535e44ab320c4
+254,chinedu-china,"chinedu china","An Nnewi blooded spareparts importer and exporter with goods from china",male,7496e1b8175c111d2d878c858b4bbe36651a2fbce7ea21c36efa2dbccf53bf4b
+255,papa-ekene,"papa ekene","The oldest man of the Akwauzu clan",male,2b832515439ccb87fdc4927cd2dcbb1606204a8287f16531f7ae41ff2ef6eef7
+256,ogbeni-rauf,"ogbeni rauf","Minister of enjoyment for Freedom state",male,bc25c0c0c77aedb0eec0833f20fe109bac15e1d663cb1aed75d7a4c32550f2c1
+257,koffi-banku,"koffi banku","E be Charlie wey no dey use en stomach play",male,d7f1b0057e848329c01df179ba41626bd464563e9013e1a2ecb3363076f5b278
+258,alhaji-bello,"alhaji bello","Rich hausa business mongul controlling half of cow production in Nigeria",male,a0a7e88d9361f8313436a77b8eddd3c4889ef9d1f89b4ea7f39c6efc63865396
+259,toju-mafejopami,"toju mafejopami","Toju is a street hustler wey no like stress",male,e04ea06e023ffab5523d2e1e49ea147638d1fb3b7b1fc2382e9a17e3b0f9749b
 "TEAM POWERDRILL",,,,,
-261,,,,,
-262,,,,,
-263,,,,,
-264,,,,,
-265,,,,,
-266,,,,,
-267,,,,,
-268,,,,,
-269,,,,,
-270,,,,,
-271,,,,,
-272,,,,,
-273,,,,,
-274,,,,,
-275,,,,,
-276,,,,,
-277,,,,,
-278,,,,,
-279,,,,,
-280,,,,,
-,,,,,
+261,paul-the-comedian,"paul the comedian",,,013d0694d6aeb0c07f75d2f588fb5e6f7853fe42143d491e74a0a63d4c728b05
+262,amina-lagos-housewife,"amina lagos housewife",,,fe5409bf251e1cd6c42f9530b7f72dfcab19bf80ce1242ed4e0772210b5e690a
+263,kiekie-the-asoebibella,"kiekie the asoebibella",,,643f30822231c4eeadf4215f09502c8ec108c5ce0e6f3d44d3017826aff284f7
+264,kunle-the-hunter,"kunle the hunter",,,299d3fea91bd5a190f2915ee443d091c09137757b81d2b6678a3c8cb3d8ce983
+265,amara-the-hairstylist,"amara the hairstylist",,,d99046825cac6a4f02849096ea99ce03393b24d5af590bade48e47bf6894527d
+266,mary-nail-technician,"mary nail technician",,,fc2521be233a48949aec96286a8043ba90560ac9abfc9db6fa97d9fc1ab449a2
+267,odogwu-oil-contractor,"odogwu oil contractor",,,8ba5591ae95f36eb62ed087d5c81b13c54e8d4097f4c56763db53598ec665791
+268,simisola-the-kenteprincess,"simisola the kenteprincess",,,ec075d07ecca5d59d91c30a13f99a56756355a88d684f490f899735bd6980483
+269,mariam-beauty-queen,"mariam beauty queen",,,9a9fa5b4b2d70428a0218bffad19cc7eeca963de695700cbe469094027828aaa
+270,obinna-the-musician,"obinna the musician",,,f5c816aa9fe88a86f0b1332c75a840125bc3032d1ee0dd4339224115d09083b1
+271,sandra-the-shybaby,"sandra the shybaby",,,9466fc89c72598ae1b0d2b045b786cd511cb2f2a24d6efca66c85c79d9596641
+272,chiamaka-the-dancer,"chiamaka the dancer",,,d9151bbf460a03fa930f4b3482dbcbe9c44bba0c799f4b4db6a5fdffdeab9c30
+273,mensah-fashion-icon,"mensah fashion icon",,,7b41c7cf7d102eddf102139386c973eb48f79bc6c798ad8cf51d1130e832b765
+274,lucy-the-fumigator,"lucy the fumigator",,,c4e6d67d556621e96d409b5890b61bd1448ffebbc6c78feae2f85553410aa865
+275,nneka-wedding-planner,"nneka wedding planner",,,f77adb8f33b8089ad31496843f6ed82f0a7d0190b9d4c8b27f2405233e61700e
+276,shakira-the-gangster,"shakira the gangster",,,00fd78085214e78e73760d067b464f097f4b6a6a78c626860063664332f1179b
+277,lola-afropopping-princess,"lola afropopping princess",,,e1dd696ca1b0cf50ae64585adaad090b90b0152000c703925ed7a43b38d3ad44
+278,sharon-walking-dead,"sharon walking dead",,,66825a25bf581deb0840aa8788d230cb532b514478684162f742b169fac79039
+279,olivia-great-teacher,"olivia great teacher",,,935a8c26475c8218ef577267dae08e36f7113a9110388699a08964bd41660b6d
 "TEAM HYDRAULICS",,,,,
-281,,,,,
-282,,,,,
-283,,,,,
-284,,,,,
-285,,,,,
-286,,,,,
-287,,,,,
-288,,,,,
-289,,,,,
-290,,,,,
-291,,,,,
-292,,,,,
-293,,,,,
-294,,,,,
-295,,,,,
-296,,,,,
-297,,,,,
-298,,,,,
-299,,,,,
-300,,,,,
-,,,,,
+281,Busola-the-shakara,"Busola the shakara","She is a fashion icon that loves luxurious items.",Female,c708c3165585eb76514c321067984c6c1cab44c9028e3a014e067907bca9b57a
+282,Bella-the-artist,"Bella the artist","A lady that host a fashion week show",Female,8fe4edd535724379450401f4cc96d495b1866e49830b8c98bc67e8f31e8f9aa2
+283,Queen-the-extrovert,"Queen the extrovert","A woman who enjoys being high all the time",Female,819e7765284fe26719a6bc5d9cb3b91ef451b9cf4814f46de20f991fb6e695d0
+284,Mary-toxic-lady,"Mary toxic lady","A lady who's toxic around people",Female,e5bf046d3e1ce15052f7e77b95cbff3223edcca5ed73b6951a577e7bd2a9d8e2
+285,Elizabeth-the-richkid,"Elizabeth the richkid","A university undergraduate from a rich background",Male,eda3548a9f0e4d20bf0a53c381a78fe4ad41e1010b3ab4e94a3e214c5535d945
+286,Larry-the-westerner,"Larry the westerner","A Yoruba Man who smokes his pipe in peace",Male,3cbd1f76200656e28c96c247f4e1e362930d80c6736f9c579a7e612fc11bd1b8
+287,Danjuma-the-shocked,"Danjuma the shocked","A pensioneer who got told his bank is on distress",Male,da83598e89ac4146dcfc76248f8beb1f9ed6f5fb9823ead07c775cc5d3c79e0a
+288,Yomi-the-fashionista,"Yomi the fashionista","Winner of the Lagos GT Bank fashion week.",Male,43b3726bbff1479c31ef996a42ef16ac554ce2fd2b2206ecaa55cd57fcf44ff0
+289,Ibu-the-importer,"Ibu the importer","A rich igbo trader who imports goods in onitsha market",Male,ca01ee25e9e059a2c69c89648d3e6116f3b27d76b27ce8b7239d726719e7afd0
+290,Massa-the-ghanian,"Massa the ghanian","A rich Ghanian trader.",Male,c614231e1ad52ba140191120e1d4a6f6cee416c47652d606a11e28574bb8e6fc
+291,James-the-musician,"James the musician","A yoruba juju artist",Male,a58d92e4e40d968a6cb251cc1664b9558219d30d6eeebbef8ef09d5d092ec19d
+292,Gbenga-titled-man,"Gbenga titled man","A yoruba chief who is also a car dealer",Male,739a178f18432881207083454f8a23418946c769dab45a9636eed513363ba7cf
+293,Abaga-the-rapper,"Abaga the rapper","A flashy millionaire and a music rapper",Male,9a1766839128890f5f667e713d55adcf4c5751e5d12651def2fa2d6756b44b63
+294,Izuchukwu-the-fisherman,"Izuchukwu the fisherman","A fisherman who knows how to paddle well",Male,c33e07324ac139e1417b388e1bd7b8e233648d94b335a2183663ddb96bc8a647
+295,Mark-the-philanthropist,"Mark the philanthropist","A London based philantropist.",Male,2aabe8c8c0fe792eaf648cba34167f2a7e1fa80fa08b681977afe8c9b6722c32
+296,Desmond-the-politician,"Desmond the politician","A young politician who just became a minister",Male,7cb342823cd41103a809c707548039cf7f583212af4e767e73ca58261dc60321
+297,Okoro-the-bachelor,"Okoro the bachelor","A local palm wine tapper with hopes and dreams",Male,28ff4f8d7b7682ddbcdbc91cfd7d4658a8732c38deb46ced3c52bb725fb1cefc
+298,Saro-the-clothemaker,"Saro the clothemaker","The yoruba man that stole the king's wife.",Male,12ba2a0be972f535549a78596fed23d0280317d9f02a769e0f58f3840db03e83
+299,Kalu-the-ichie,"Kalu the ichie","A man of wealth with afluence spreading all over the east",Male,69c10687b93f28db02f9efe006e858583c2bb253eaaa9e54bae82f9548c15c63
 "TEAM SCALE",,,,,
-301,,,,,
-302,,,,,
-303,,,,,
-304,,,,,
-305,,,,,
-306,,,,,
-307,,,,,
-308,,,,,
-309,,,,,
-310,,,,,
-311,,,,,
-312,,,,,
-313,,,,,
-314,,,,,
-315,,,,,
-316,,,,,
+301,"wendy-the -banker","wendy the  banker","Wendy loves working in the bank, as she gets to meet different people.",Female,c9e04f688004d38cec3f9fb1aad38cd77a5429c65fb5f940e63c21e9b9d6bbf3
+302,"uduak-the -dark horse","uduak the dark horse","Uduak looks innocent and has the whole apartment bugged",Female,279f31557210fc0f2f6af858687b6892c7b37a86c9f53634648ad41b7e0e2a18
+303,"timeyin-the -eccentic","timeyin the eccentic","Timeyin is as eccentric as they come with no care for others opinions",Female,99a766c7ca9e3a6c08a2eb1dbbce501459ea0392566dcbf569b9e1570015d61e
+304,"omawunmi-the -businesswoman","omawunmi the businesswoman","Omawunmi is a no-nonsense woman with a shop in idumota",Female,1bff800ebe795a75c8c5d1d7866429777c0eeb6a0e4b9c31658475dedbf6ee18
+305,halima-the-housewife,"halima the housewife","Halima loves to bake and cook for her children",Female,abe4ea2431549f36e2193ab098b0f97e54c72992d5f5bdfe960b72e9dc335fcf
+306,"muna-the -block sister","muna the block sister","Muna loves to tell everyone in the block about her younger escapades",Female,be9b514addf49d3961a3750815c5418a6564fc8fb618fc73124c474eeef7d35e
+307,"stella-the -gossip","stella the gossip","Nobody gossips on the block like stella when smoking.",Female,707aa9d2bd3a3b9dace863c17fd20d921ad551ac24ce943abc0c238e5246d4ce
+308,agbani-the-wannabe,"agbani the wannabe","Agbani loves to shop antique ndecorations for her mansion in idi-iroko",Female,c3f554bc6b5e743632ed7b05ed11f38c68612029ab62883f11cd747e897f4d9a
+309,"asante-the -warrior","asante the warrior","Asante came from along line of warriors in Ghana",Female,ca1c251317c768409dc11df4b329963198aaf8265d3a275be7c5b03e67c396a2
+310,"hilda-the -insomaniac","hilda the insomaniac","Hilda prefers to sleep during the day",Female,d56fa2d2b24a5545b1f420599a3df3b02b654b762bbe10b58917435d8dfad06c
+311,"sisi yemi-the -street aunty","sisi yemi the street aunty","Sisi Yemi is everyone's favourite street aunty.",Female,863b8f8d136959044eedc0283515051ce6dd90077e3fce75c6d3a5c5f5634928
+312,"chiamaka-the -bully","chiamaka the bully","Chiamaka hates people in her business and likes to scare the kids on the block",Female,7abbefd1102730a82290357d1e9df1f5312dc904cc5d5fd8c0cd1caf81b3163a
+313,gift-the-fashionista,"gift the fashionista","Gift has always been bold and that spreads to her fashion sense too.",Female,cd535100d02d5cec9dd7cc555e85de7162285279353889ac8a338863dae36ac8
+314,omoyene-the-weirdo,"omoyene the weirdo","Omoyene likes to murmur to herself and talks about seeing ghosts",Female,07aed42aab7d4d96bf6790f16f03f0c08e0bb953b2c421c9f41afc03a1caea15
+315,"maria-the -freshface","maria the freshface","Maria likes to believe the world is sunshine and rainbows while blowing gum",Female,f6f90a7e754471bb64a9e53241cd699d4ec94a3d9cc488eb3032f0dac0d25332
+316,"monica-the -smoker","monica the smoker","Monica is never found without a pipe and loves to interject in every conversation",Female,fac10d8b226d1200ad2dcedab41d522fd60f99fedbae395bcc50f2bda438a793
 317,,,,,
 318,,,,,
 319,,,,,
-320,,,,,
-,,,,,
 "TEAM SANDPAPER",,,,,
-321,,,,,
-322,,,,,
-323,,,,,
-324,,,,,
-325,,,,,
-326,,,,,
-327,,,,,
-328,,,,,
-329,,,,,
-330,,,,,
-331,,,,,
-332,,,,,
-333,,,,,
-334,,,,,
-335,,,,,
-336,,,,,
-337,,,,,
-338,,,,,
-339,,,,,
-340,,,,,
-,,,,,
+321,Omunyinyi-the-stoic,"omunyinyi the stoic","omunyinyi wears a Kitenge coat",male,656b4a125894d343801776e621788b689da894145ef06ee7a06c895ba5a0e5cc
+322,Kamau-the-sleeper,"kamau the sleeper","closed eyes meditating",male,8a7ce185abecbbc602368dd08b3beab3fa10b43dfb7bc088cf5ffee3d8a44281
+323,Mutiso-the-lastborn,"mutiso the lastborn","masked up mutiso dozing off",male,36e9812e74934a1b3d972cce63e16e3d5f931043c1faaa6a4961ef0a1afce26e
+324,Omondi-the-vegeterian,"omondi the vegeterian","omondi wears a green coat",male,1b913b68e5c637e7de6a291ac9f5b8ebc3033ceacbffe5ca96db4687546d5185
+325,Barasa-the-optimist,"barasa the optimist","looks up to the sky and makes a wish",male,ea2f73a5d007f488efa375e99d9a2638e374388477754f11c1466ef87f468d17
+326,Mwembu-the-elder,"mwembu the elder","old but not so old, with yellow his favorite color",male,09e5f84d7048dddedf3d723d52ec625c9412d5bdcceb70d9135d45c023ec7b70
+327,Mbogi-the-fighter,"mbogi the fighter","masked up mbogi after capture",male,f2eb5d88610f9dc2683067821f9d7f3124b03661e2235abdb943056a85c68cb2
+328,Mrosho-the-runner,"mrosho the runner","masked up mrosho",male,c57a632a60f969fb771bbcae6b59d769a191f46ea24e30d29cc8b3ca7944f130
+329,Milele-the-african,"milele the african","milele with a nice african print in orange",male,72f53a04342f5b38dd7b6ed57bf3178048900b7c22d852228f03b5960cc6ace4
+330,Olebon-the-oloibon,"olebon the oloibon","olebon in customized buba sokoto",male,9ef38f32d1d2a13c156fb7d5bfd5963f476e0cfc1355216e763f53d25c4076c7
+331,Chifu-the-maasai,"chifu the maasai","clothing inspired by maasai shuka",male,18929075f07548e5a85c3226bdf5457c5963bea6978ed9e2c607867aa9a9bc03
+332,Mwangaa-the-voice,"mwangaa the voice","mwangaa the chief",male,1b24d913aa85af505d5d85c78dadb494bca67c8d70e01f633a85cae6bb7123cb
+333,Waforte-the-first,"waforte the first","masked up man who does sleep a lot",male,e8b65284615c4a59c96ea9c7aa5359f8d27c7606163f2a1c46ff2906be99662a
+334,Kariuki-the-prayerful-one,"kariuki the prayerful one","kariuki closes his eyes",male,a14fcfd64656b1aeccc71a669d5f70721c0a3196ae4341578e6becc004be3fb4
+335,Kenyanese-the-priest,"kenyanese the priest","masked up man with with white cloth",male,fd77e765b6c7d1a1bb6a57c3ad98d43e8b275eb0a2ae2d594a63f1a7773903b2
+336,Nyimbo-the-singer,"nyimbo the singer","glasses and a pot for the night",female,60273e7260454894dbc7474ca30ba8d9442cb664bdd4ac4f07f2ace276126b2d
+337,maathai-the-nobel-winner,"maathai the nobel winner","mathaai the warrior",female,bafe3b0138fcfde165e61a16e1124f8482045be9db0f54b08ca1fbaad337f1c6
+338,Tish-the-angry-one,"tish the angry one","angry tish with specs on",female,41a98eec8709ecd2dce63152ef78d09e76ce76d836a3730897ac5abb73afef11
+339,Wamenza-the-winner,"wamenza the winner","wamenza the leader",female,6e02216e4cfe1747343a2c2d5038f8373cf5db5ee1914086f619d3ed112745cc
 "TEAM RULER",,,,,
-341,,,,,
-342,,,,,
-343,,,,,
-344,,,,,
-345,,,,,
-346,,,,,
-347,,,,,
-348,,,,,
-349,,,,,
-350,,,,,
-351,,,,,
-352,,,,,
-353,,,,,
-354,,,,,
-355,,,,,
-356,,,,,
-357,,,,,
-358,,,,,
-359,,,,,
-360,,,,,
-,,,,,
+341,mansur-the-partyrider,"mansur the partyrider","Mansur is the life of a party and never caught dulling.",male,90f865e676406b99e4962eb06bd961f912d6c22fbed82200ca136c71a0723fbe
+342,tola-the-businessman,"tola the businessman","Tola loves business and owns several shops in idumota",female,e4499fcfb23142e646b6f26c3a0856518723be849a900fe6d179154a1e396c89
+343,abdullahi-the-honorable,"abdullahi the honorable","Popularly called buje budanu a godfather who lavishes money on young thugs",male,bb65f83d6919344c41340c36de05d301a1cbe86a670f4622bb0f05c93a1e0edb
+344,ojukwu-the-badguy,"ojukwu the badguy","Ojukwu likes to oppress and cause trouble",male,36a2c4a57edc9c9d48fb62a8c2400281ccc2217a6cebb75519d1cdfaf3838a8a
+345,odunsi-the-egbonadugbo,"odunsi the egbonadugbo","Odunsi loves to advise and people in the community rely on him",male,be72527a05edf450c3eae981d2c8c4b24ca52711603cb92b58a8c8a5c5900fda
+346,ogogo-the-sugardaddy,"ogogo the sugardaddy","A rich oil magnate who loves to 'solve' young women's problems with his millions",male,fd08be9897028135a2ed8d03c486f2017b631554ed52c97ef411193f554f324a
+347,suli-the-amalaseller,"suli the amalaseller","Suli sells amala , she is very rude, and they say thats the secret to her sweet food",female,5d6d7757fef6ce652f3eabf4a5a9461a5dedb0e2bc81a35777f403e0ee28d36f
+348,dolapo-the-afrocentric,"dolapo the afrocentric","Dolapo loves african prints and loves to showcase culture",female,d804d4e3dec63423d8b043bc76f8a75b080947345f2db5355ed0111a5260eeac
+349,danjuma-the-saddist,"danjuma the saddist","Danjuma is a grumpy man no one likes to associate with him",male,bdfe965cdfc2d813a6ee5bbc2ab1f63ce1489d792053d816b9f14e32228266c0
+350,chinedu-the-farmer,"chinedu the farmer","An hardworking farmer who has 6 boys who help out on the farm",male,19818cd3fa74306994b79e131eb5c2b0d9bedbb3ab706012c380574ae81db764
+351,kola-the-baldguy,"kola the baldguy","kola girls fall for his bald head and always barb it",male,b43fe31fce8dc13eb6ea7285415de9a08750efed8df318ea62a81795b8c03faf
+352,bola-the-bosslady,"bola the bosslady","Bola commands boys and chill with men",female,84747c147d933cda1a3ba1f2abcd9e28a9ca3aca2399f6ac34872513ddfccb02
+353,kunle-the-alienguy,"kunle the alienguy","People feared kunle because of his alien's colour",male,5f3bd87fafb60b105ed275e4bfe8528610e9ae97bafcaa21648296f8dbb491e7
+354,segun-the-sharp,"segun the sharp","Segun drives with caution and people love him for that",male,564d7025e9289aba4a3c2492738b3081800d39ad185e6c1a1c6192847155bc3c
+355,ola-the-hardguy,"ola the hardguy","Ola is feared by many and he leveraged on that",male,6f585948606a7f47fd9af7c5d15b2e86a7a7b665403afb764b0a39b36004b73f
+356,emeka-the-chief,"emeka the chief","Crowd are always at Emeka's house and people respect him",male,a160a4d15352cdca343c9e05902f94fc452e95af9dc8c38f53cb4d357fe8d987
+357,ugochukwu-the-celeb,"ugochukwu the celeb","Ugochukwu has many followers on social media",male,b52e3cfa22a952794f053f8fb88bce35acf2a0c567919ec3a2ce4dbfb7695b77
+358,adekunle-the-yorubademon,"adekunle the yoruba demon","A womans' man with no devotion to any of them",male,a5e429f477767358ffb5418af9dbce4ac80f5203304241566aae3d173d6d4047
+359,favour-the-fashionista,"favour the fashionista","Combining dresses is not a problem for Favour",female,fd2519080a55f0a74af5cbc5a26d367a7baf502a16a94f175ade16db77a42530
 "TEAM VBELT",,,,,
-361,,,,,
-362,,,,,
-363,,,,,
-364,,,,,
-365,,,,,
-366,,,,,
-367,,,,,
-368,,,,,
-369,,,,,
-370,,,,,
-371,,,,,
-372,,,,,
-373,,,,,
-374,,,,,
-375,,,,,
-376,,,,,
-377,,,,,
-378,,,,,
-379,,,,,
-380,,,,,
-,,,,,
+361,osas-the-ceo,"osas the ceo","Meet Osas, a Gen-Z CEO with the British accent.",Female,c22b5b4d2f91d60e18cc5a2fb3d8735836b33ae561c78b44f8002bdecb7dae24
+362,"nneka-the-rainbow babe","nneka the rainbow babe","Nneka, the happy rainbow babe with the vibes",Female,65720a66bfc0ea5461c74f0098c59226d2690e34bf11feae077770618beb92ad
+363,"temitope-the-spoilt girl","temitope the spoilt girl","Temitope, our favourite Daddy's girl.",Female,4ab461d3c91a5b56682a4477077f57a3c7526a01fff0dcd6ff5f862d5edfc01c
+364,"bekeh-the-party animal","bekeh the party animal","Baby Bekeh, Life of the party that goes home with your charger.",Female,20966fb5887c715db6242af672863ec129ccaad570fd7110a30f61494ab38601
+365,"nana-the-tech lady","nana the tech lady","Nana, the tech madam that doubles as Kumasi Adele in her bathroom every morning.",Female,a434486cbf98baf1da53a1cf8ee3fbbe4c59f49dcb8ba0aa25544bb2f6676242
+366,rofiat-the-marketer,"rofiat the marketer","Rofiat, the distressed marketing intern.",Female,976b947997961be93e4c878ea99c7a5eeacc42767e3bd346e49bdc9749613a16
+367,zarifa-the-righteous,"zarifa the righteous","Meet Zarifa, a proper baddie for Christ.",Female,80780c0604cbd5d30f4777d865fd54aa22375b876af1b7a91dc49c5f7472e46c
+368,modinat-the-troublesome,"modinat the troublesome","Modinat, The queen of Gbas Gbos.",Female,6946e728599090cbe4611eed180141f61d1e42173cec397d4e3ae37716214b7d
+369,amaka-our-mummy-g.o,"amaka our mummy g.o","Here's Amaka, our one and only mummy G.O who's been to hell and back.",Female,97d5a0789dae8f6cba965b271d7c90c1fd3fa76873f2b8b94726286caa654270
+370,mawusi-the-patient,"mawusi the patient","Meet Mawusi, the sweet sister waiting for her Canadian bobo.",Female,887f15a1ca6a3459caa5a2875c0756d117f7dddabdc01991f731bfc496e45f51
+371,nesta-the-difficult,"nesta the difficult","Meet Nesta,the National Chairlady, Shege Administrators of Nigeria. (SAN)",Female,2a9bde991e0d9cb6e7a4033d994f58f5ee279a90c2c66c4ea5131ebd478493b4
+372,"adaora-the-choir mistress","adaora the choir mistress","Adaora, our able choir mistress that will take your boyfriend for vanishing.",Female,3fcb467eec11fe1b10bd713b87043c6c3efab86af53a2d48c7a9e852e22d46a2
+373,"busayo-the-husband snatcher","busayo the husband snatcher","Miss Busayo, Can transplant your husband with the blink of her eyes",Female,a3cd12375fae455f07011f1fe38fcc00327d9e77431aa05fa3320d391a6c3992
+374,wangari-the-waitress,"wangari the waitress","Wangari, the aspiring musician that doubles as a waitress.",Female,8b39f7308f3d965a4381468e9e39655cc606288c57e2b0be45b7d9481795400f
+375,"charlene-the-shy lady","charlene the shy lady","Meet Charlene, the shy sweetheart next door.",Female,45faa33f38f50fe72719810f6a95992de665c088ebf658a8841688c190076df1
+376,addae-the-unretired,"addae the unretired","Mummy Addae, the hot grandma that has refused to retire.",Female,4d5e5f1d10f3e6eedfbe591056bc1e349250a974f49d81fab5a5637d33d3a32c
+377,"abena-the-slay queen","abena the slay queen","Abena, the gang's slay queen",Female,198021fdb4860b2aebaf1b746e1885c0d74c61bdf5ef73f081f96e4ab1704d35
+378,"gasira-the-violence mama","gasira the violence mama","Sister Gasira, wipes people Oraimo cord for a living.",Female,33b0303b50752a1d986bb7e5bb808df3cc7df0522239d828eb6ffee7dbff17ee
+379,"salamatou-the-exchange student","salamatou the exchange student","Salamatou, An Ivorian exchange student who's in love with Amala.",Female,be09ed6fea7000fdf5f34fbaf999a949ca9a0f9b952defbced3a2bad29889a90
 "TEAM AXE",,,,,
-381,Olofi,,,,a4a1d79e62642b711ae9f69c4fb2f7ba09e7a42a30dc0b479b86abeb73d4179f
-382,Amadioha,,,,a330838b66d66e64990dc69fd8920fb487ec7b5ca23963a8762799cae5f89d79
-383,Sango,,,,6ba60122720efbb6de7187903cb566937846ff9916937d27888d8490e9b561a9
-384,Agwu,,,,b2917325eacc63e7b89dcc84b47a00d198584862a1c988801a02b093ab78686d
-385,Tano,,,,4f41cb2f15d75001ff1e16005bb8a76d48107e18fc8f61a6f3e4efed7a3f6bfe
-386,Anansi,,,,d90dd1153544e5808ac3abaacd0b7a1425adfc7f8ea788dc3df3fc6c77870f69
-387,Nyame,,,,ec057acd573fa401a737f930ffd3b08a1f6a0ad832c2c1bc6c9c326a67c0a27c
-388,Obatala,,,,fd150450b2716d0cf21e70efaa15e7501465f2bae4e53b72cceb41c042e90cca
-389,Erinle,,,,3e1c278f67956a69760d245ad4f4f8db812e091697ba9f0d226ad138c881f931
-390,Ogun,,,,c798eb2701da9509723df1fecb6a90d5e24a910301cab815461f99e49011b91f
-391,Abosom,,,,2d58794c0f2c430dfd31ce1641ae3b2069381b7661245d7db2690ca4bdb4b31e
-392,Oya,,,,2c1eb775feef6d97667c4a5d8a8a77028590d3770cc154c11af8ee8389dd53cd
-393,Agbala,,,,39249d05939646a8d2f54e60ad0a5acfaa63618ceb8017519b75364d22b1c95a
-394,Njoku-ji,,,,378c66134d70716f866673b308d70a03b953c5abf0d04bc52335156d5350ac4c
-395,Akonadi,,,,ea7f9835c45abc75dc0bd195884edda93fecd9fd6bd508a2ac5c8fc177e49eaf
-396,Onyame,,,,35fb0179bec3390802172f008deba0de296ca9a825e46c332a16f64a3cf19166
-397,Ibeji,,,,6ea26564c8589344df5885a413de0536ab17f54caded51147038a7b3ddb42ce4
-398,Asase-ya,,,,0bd31c9e63dc7811d0a7446db8438706dede8d6f9613570b3f7f7d3b2bf8a01f
-399,Yemoja,,,,1dbe956740035550f700f233418d0122c8cf0d1cfd2ab6bceb0ac789fa8b4426
-400,Yemaya,,,,102d52adef02ba3d569f573c3a12de679a1b0e05efe98716c124ace9e02584a9
-,,,,,
+381,Olofi,Olofi,"Olofi is the Yoruba creator god and messenger.",Male,b7c859f03939bf3a3478a76854c501dd16f6e13ba50018500b0926c0e4fe98cc
+382,Amadioha,Amadioha,"Amadioha is the Igbo high god of thunder.",Male,84919bb3bd19b1cc4ab4ab5a40e023f7f66c76b65943a6c589fb346cfb41af9e
+383,Sango,Sango,"Sango is the yoruba diety of thunder.",Male,04130a04bcc5f86f9af5de608ec22489d6804cc2f078bc870cdc5dc1ed54190b
+384,Agwu,Agwu,"Agwu is the Igbo deity of health and divination.",Male,1d67f0f68ba61bc77e99e00431c5fa9a898f4281703a8718038edb483cc99879
+385,Tano,Tano,"Tano is the master of the Ghana river Tano.",Male,d15c6a7a411b02074dc7393eb9b3b0cddb1094f10363f741c5abd21584700d39
+386,Anansi,Anansi,"Anansi is a trickster god of stories of the Ghana people.",Male,4f15647e6dc92bfd5ef126e2efa078be4df55e65d1719c875ac7ae19a3f3a036
+387,Nyame,Nyame,"Nyame is the omnipotent god of the Ghana region.",Male,fb08086a2fe3d829fbc40d5c8de0f3aedabf440f78574b4b98eda9f607d252d9
+388,Obatala,Obatala,"Obatala is the lord of all gods in the Yoruba land.",Male,41288de632b2a3b73711d144cb1c4b80022ef68315210bff25f7390ccb011472
+389,Erinle,Erinle,"Erinle is a powerful hunter of the Yoruba land.,",Male,d2ad67a6348d410d0986d166e81ad117190b241988d9d07c04a4d051d51a95d0
+390,Ogun,Ogun,"Ogun is the Yoruba God of iron and metal work.",Male,59e9908f7dbe8e75e7934cc03c33f6c59150fb9cad08c2c3dc5c2bd9a8a88437
+391,Abosom,Abosom,"Abosom is the goddess of wisdom and knowledge of the Ghana people.",Female,3a15fa3380854aeb1300d2885bc67638aaf58aa483a5c74ebfe72934ac9c17b9
+392,Oya,Oya,"Oya is the goddess of violent storms and winds of the Yoruba people.",Female,51478f259c2f8cb1f67c5f1537e207c64075f8771e541686d88481dcebe51de4
+393,Agbala,Agbala,"Agbala is the stylish goddess of the future for the Igbo region.",Female,86f71c01d83aeb76d8d308249dcba237f91b41f7d2ad82f3dc2099bb7d155974
+394,Njoku-ji,Njoku-ji,"Njoku-ji is the goddess of new yam of the Igbo people.",Female,84cae58353782feb798ab1f971506c6ba5c9df73efae2151a4b1a41df41968b9
+395,Akonadi,Akonadi,"Akonadi is the goddess of justice and prophesies of the Ghana people.",Female,bf0a431f2184bfa59dba9a19554dd9db80ceadb25cbffa212ad7779fd9bcf2b7
+396,Onyame,Onyame,"Onyame is the goddess of the moon of the ghana region",Female,9ed45b94e3b9512e6ccbd8bedd9449f81eb7792c184d935b24e1e810eb2dc284
+397,Ibeji,Ibeji,"Ibeji is the goddess of balance and twin of the Yoruba people.",Female,5f485fcd911aa2ad3f25126738d2011ad6b6b3ebd253c6a78e4a2004724aa27d
+398,Asase-ya,Asase-ya,"Asase-ya is the goddess of fertility and love of the Ghanaian people",Female,5a58c44610cbeda027abed918e3b473f6f42e8cb778fd279bccce1c77aad2be5
+399,Yemoja,Yemoja,"Yemoja is the stylish yoruba goddess of the rivers.",Female,9acec75662aae8bc12252a91593de824fea84e05d068455cb228eb3156b7cfc3
 "TEAM BOOT",,,,,
-401,,,,,
-402,,,,,
-403,,,,,
-404,,,,,
-405,,,,,
-406,,,,,
-407,,,,,
-408,,,,,
-409,,,,,
-410,,,,,
-411,,,,,
-412,,,,,
-413,,,,,
-414,,,,,
-415,,,,,
-416,,,,,
-417,,,,,
-418,,,,,
-419,,,,,
-420,,,,,
+401,smirky-becky,"smirky becky","Becky ends every statement she makes with a smirk.",female,1c3589f2ccffc8684b8c9381a5a5be5de473a5a63bc6debc05191064ab7479f2
+402,ankara-scarlett,"ankara scarlett","Scarlett is a tailor at yaba market and she loves what she does.",female,0c8ea02ff480cfec7d074501516ca6793a202d3a24bf5e56318ca2c9b28c77cb
+403,sea-rastafaria,"sea rastafaria","Ronke is the ghetto goddess that nobody wants to mess with. Stay clear!",female,253e5c46402f845fca66af1a8ac9c7b86b9a54b149b69a32c2e6682711d4e791
+404,pretty-betty,"pretty betty","Betty is always proud of her beauty.",female,40abe02e1c525e3595e94b5cef20d0eee8bf9ed596c433e05cc6192c83fdb618
+405,lola-medusa,"lola medusa","Lola knows how to seduce every guys she is into.",female,4cca42494a175e63c902839a8a2e8deda1fbb0085c95813dc7c7aebac7f905d7
+406,bukola-nosend,"bukola nosend","Bukola is friends with many but always get moody.",female,3fca983a088acc0b3a442fc437b064de8f16f35e294935612c2e414b230f540d
+407,burna-morgan,"burna morgan","Morgan paints the town red with her red hair.",female,de1913586b87f2222576a1cde2ccbbe4d075e533a94368e74172ba419cb11fb8
+408,afro-star,"afro star","Bimbo is an afro star with great affluence.",female,f634dd26d83e795647f2c04cf50b6d61d144dd011c7749fd9990f23b01260eca
+409,fiesty-sandra,"fiesty sandra","Sandra is a social animal, correct owambe ambassador.",female,92667fec4b726dcab4acd56fdb93285d877253674d4bf9300e40b6b9e09243be
+410,sister-nkechi-sabi,"sister nkechi sabi","Nkechi is the true definition of amebo, always in peoples business.",female,a93adbe914b6e7a1f7d262b2cfefd9132467e3faa6d5c3facbfaa5f27c6b961d
+411,unfriendly-gina,"unfriendly gina","Gina is an angry one, she has no friends but she has a lot of money.",female,52673dc4bfc3335ac498cec39e2bce07a8d728dea553c356151e6b9d402b6f39
+412,dada-ganster,"dada ganster","Dada respects no one, always finds pleasure terrorising others.",female,07588e40f47f9eae11a5f59225fc4f7fb6554a374a0fa339ba4cf7e16cbde59a
+413,idoncare-linda,"idoncare linda","Linda is a beautiful but very annoying girl, she turns every thing to a fight.",female,e548e972c98ea90884ca391fef76357c56de21278ca755afea4fa5b135e4ad0e
+414,doubting-vivian,"doubting vivian","Vivian just like the thomas in the bible, she doubts all.",female,589f782abf7ed2a6c52f8d44c3be301be9be1e641ca49d9affa2c681dc500765
+415,simbi-side-eyed,"simbi side eyed","Simbi is reserved but doesn't allow anyone intimidate her.",female,7691290fc3992cc5ae06276baaf0c6d14bb7cffe35b54987d78ba23243b54e21
+416,bambi-tekno,"bambi tekno","Bambi is the dancer of the team.",female,620774d14e9ad0e9834a30be22e7df913a20417dbfe832034eb70d9481a4e1b5
+417,saka-portable,"saka portable","Saka is forever convinced that his toothless smile is the icing on his cake.",male,0242aba676b7668a64e8a0c7d00a64d64b3cb3d52348deef9a585f8c114669a5
+418,king-of-boys,"king of boys","Busayo finds her way in ruling the boys and that's why she's king of boys.",female,b8dc2bb009b9d030900bd73586a7557fd624359023180fa1089e1300f707fa37
+419,funky-alte-pop,"funky alte pop","Funke is always the life of every party, strong gen z advocate.",female,b0ab7419c7d6757f93a4c1df552b7c102b727fcd5023a0d6c812812fb5c9a71b
