@@ -7,13 +7,16 @@ $CSVfp = fopen($file, "r+");
 if ($CSVfp !== FALSE) {
     $added_title = false;
     $count = 0;
+    $team;
     $max_count = 22; //team name + 20 members
     while (!feof($CSVfp)) {
         $data = fgetcsv($CSVfp, 1000, ",");
-        // print_r($data);
 
         //add the team name if the title has been added
-        if (!$count && $added_title) array_push($newarray, [$data[0], '', '', '', '', '']);
+        if (!$count && $added_title) {
+            array_push($newarray, [$data[0], '', '', '', '', '']);
+            $team = $data[0];
+        }
 
         //add item if the title has been added and you are not on the gap line
         if ($added_title && $count && ($count < ($max_count)) && !empty($data)) {
@@ -26,9 +29,9 @@ if ($CSVfp !== FALSE) {
             //create json data
             $array = array(
                 'format' => 'CHIP-0007',
-                'name' => '',
+                'name' => $filename,
                 'description' => $des,
-                'minting_tool' => 'Team x',
+                'minting_tool' => $team,
                 'sensitive_content' => false,
                 'series_number' => $serial_number,
                 'series_total' => 526,
