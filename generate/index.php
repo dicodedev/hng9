@@ -74,9 +74,6 @@ if ($CSVfp !== FALSE) {
             $count = 0;
         }
 
-
-
-
         //add the file title
         if (!$added_title) {
             array_push($newarray, [str_replace('"', '', $data[0]), str_replace('"', '', $data[1]), str_replace('"', '', $data[2]), str_replace('"', '', $data[3]), str_replace('"', '', $data[4]), str_replace('"', '', "sha256")]);
