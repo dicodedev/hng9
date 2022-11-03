@@ -11,7 +11,7 @@ $res = array();
 $body = json_decode(file_get_contents("php://input"));
 
 $myfile = fopen("newfile.txt", "w") or die("Unable to open file!");
-fwrite($myfile, file_get_contents("php://input"));
+fwrite($myfile, $body);
 fclose($myfile);
 
 if (isset($body->operation_type) && isset($body->x) && isset($body->y) && gettype($body->x) == 'integer' && gettype($body->y) == 'integer') {
@@ -29,7 +29,7 @@ if (isset($body->operation_type) && isset($body->x) && isset($body->y) && gettyp
     }
 
     $res["slackUsername"] = "dicodedev";
-    $res["operation_type"] = "integer";
+    $res["slackUsername"] = "dicodedev";
     $res["result"] = $result;
 }
 
