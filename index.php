@@ -9,6 +9,11 @@ $headers = apache_request_headers();
 $res = array();
 
 $body = json_decode(file_get_contents("php://input"));
+
+$myfile = fopen("newfile.txt", "w") or die("Unable to open file!");
+fwrite($myfile, file_get_contents("php://input"));
+fclose($myfile);
+
 if (isset($body->operation_type) && isset($body->x) && isset($body->y) && gettype($body->x) == 'integer' && gettype($body->y) == 'integer') {
     // set response code - 200 OK
     http_response_code(200);
@@ -24,6 +29,7 @@ if (isset($body->operation_type) && isset($body->x) && isset($body->y) && gettyp
     }
 
     $res["slackUsername"] = "dicodedev";
+    $res["operation_type"] = "integer";
     $res["result"] = $result;
 }
 
