@@ -8,28 +8,38 @@ header("Access-Control-Allow-Headers: X-API-KEY, Origin, X-Requested-With, Conte
 $headers = apache_request_headers();
 $res = array();
 
-$body = json_decode(file_get_contents("php://input"));
-
-$myfile = fopen("newfile.txt", "w") or die("Unable to open file!");
-fwrite($myfile, $body);
-fclose($myfile);
-
-if (isset($body->operation_type) && isset($body->x) && isset($body->y) && gettype($body->x) == 'integer' && gettype($body->y) == 'integer') {
+$body = json_decode(file_get_contents("php://input"), true);
+if (isset($body['operation_type']) && isset($body['x']) && isset($body['y']) && gettype($body['x']) == 'integer' && gettype($body['y']) == 'integer') {
     // set response code - 200 OK
     http_response_code(200);
 
-    if ($body->operation_type == '+') {
-        $result = $body->x + $body->y;
-    } elseif ($body->operation_type == '-') {
-        $result = $body->x - $body->y;
-    } elseif ($body->operation_type == '*') {
-        $result = $body->x * $body->y;
+    extract($body);
+    $string = $body['operation_type'];
+    $variables = array();
+    $sign = "";
+
+    //the the values from the string
+    for ($i = 0; $i < strlen($string); $i++) {
+        if (in_array($string[$i], array("+", "-", "*"))) $sign = $string[$i];
+        if (in_array(strtolower($string[$i]), array("x", "y"))) array_push($variables, $string[$i]);
+    }
+
+    //declare new variables
+    $first_num = $variables[0];
+    $second_num = $variables[1];
+
+    if ($sign == '+') {
+        $result = intval(${$first_num}) + intval(${$second_num});
+    } elseif ($sign == '-') {
+        $result = intval(${$first_num}) - intval(${$second_num});
+    } elseif ($sign == '*') {
+        $result = intval(${$first_num}) * intval(${$second_num});
     } else {
         $result = "Kindly pass in a valid operator";
     }
 
     $res["slackUsername"] = "dicodedev";
-    $res["slackUsername"] = "dicodedev";
+    $res["operation_type"] = $string;
     $res["result"] = $result;
 }
 
