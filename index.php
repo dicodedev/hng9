@@ -15,13 +15,17 @@ if (isset($body['operation_type']) && isset($body['x']) && isset($body['y']) && 
 
     extract($body);
     $string = $body['operation_type'];
+    $lstring = "task " . strtolower($body['operation_type']);
     $variables = array();
     $sign = "";
 
     //the the values from the string
     for ($i = 0; $i < strlen($string); $i++) {
-        if (in_array($string[$i], array("+", "-", "*"))) $sign = $string[$i];
         if (in_array(strtolower($string[$i]), array("x", "y"))) array_push($variables, $string[$i]);
+        if (in_array($string[$i], array("+", "-", "*"))) $sign = $string[$i];
+        if (strrpos($lstring, "add") || strrpos($lstring, "plus") || strrpos($lstring, "sum")) $sign = "+";
+        if (strrpos($lstring, "subtract") || strrpos($lstring, "minus") || strrpos($lstring, "remove")) $sign = "-";
+        if (strrpos($lstring, "multiply") || strrpos($lstring, "product") || strrpos($lstring, "times")) $sign = "*";
     }
 
     //declare new variables
