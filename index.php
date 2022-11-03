@@ -23,15 +23,23 @@ if (isset($body['operation_type']) && isset($body['x']) && isset($body['y']) && 
     for ($i = 0; $i < strlen($string); $i++) {
         if (in_array(strtolower($string[$i]), array("x", "y"))) array_push($variables, $string[$i]);
         if (in_array($string[$i], array("+", "-", "*"))) $sign = $string[$i];
-        if (strrpos($lstring, "add") || strrpos($lstring, "plus") || strrpos($lstring, "sum")) $sign = "+";
-        if (strrpos($lstring, "subtract") || strrpos($lstring, "minus") || strrpos($lstring, "remove")) $sign = "-";
-        if (strrpos($lstring, "multipl") || strrpos($lstring, "product") || strrpos($lstring, "times")) $sign = "*";
     }
 
-    //declare new variables
-    $first_num = $variables[0];
-    $second_num = $variables[1];
+    //operation check
+    if (strrpos($lstring, "add") || strrpos($lstring, "plus") || strrpos($lstring, "sum")) $sign = "+";
+    if (strrpos($lstring, "subtract") || strrpos($lstring, "minus") || strrpos($lstring, "remove")) $sign = "-";
+    if (strrpos($lstring, "multipl") || strrpos($lstring, "product") || strrpos($lstring, "times")) $sign = "*";
 
+    //declare new variables
+    if (!strrpos($lstring, "from")) {
+        $first_num = $variables[0];
+        $second_num = $variables[1];
+    } else {
+        $first_num = $variables[1];
+        $second_num = $variables[0];
+    }
+
+    //actual calculation
     if ($sign == '+') {
         $result = intval(${$first_num}) + intval(${$second_num});
     } elseif ($sign == '-') {
