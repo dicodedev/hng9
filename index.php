@@ -25,7 +25,7 @@ if (isset($body['operation_type']) && isset($body['x']) && isset($body['y']) && 
         if (in_array($string[$i], array("+", "-", "*"))) $sign = $string[$i];
         if (strrpos($lstring, "add") || strrpos($lstring, "plus") || strrpos($lstring, "sum")) $sign = "+";
         if (strrpos($lstring, "subtract") || strrpos($lstring, "minus") || strrpos($lstring, "remove")) $sign = "-";
-        if (strrpos($lstring, "multiply") || strrpos($lstring, "product") || strrpos($lstring, "times")) $sign = "*";
+        if (strrpos($lstring, "multipl") || strrpos($lstring, "product") || strrpos($lstring, "times")) $sign = "*";
     }
 
     //declare new variables
