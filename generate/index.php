@@ -23,13 +23,15 @@ if ($CSVfp !== FALSE) {
                 //get values
                 $serial_number = $data[0];
                 $filename = $data[1];
-                $des = $data[2];
-                $gender = $data[3];
-                $UUID = $data[4];
+                $name = $data[2];
+                $des = $data[3];
+                $gender = $data[4];
+                $attributes = explode(",", $data[5]);
+                $UUID = $data[6];
                 //create json data
                 $array = array(
                     'format' => 'CHIP-0007',
-                    'name' => $filename,
+                    'name' => $name,
                     'description' => $des,
                     'minting_tool' => $team,
                     'sensitive_content' => false,
@@ -58,14 +60,18 @@ if ($CSVfp !== FALSE) {
                     ),
                 );
                 $json = json_encode($array);
-
+                
+                print_r("<pre>");
+                print_r($array);
+                print_r("</pre>");
+                
                 //hash json
                 $hash = hash('sha256', $json);
-                if (isset($data[1]) && !empty($data[1])) {
-                    array_push($newarray, [str_replace('"', '', $data[0]), str_replace('"', '', $data[1]), str_replace('"', '', $data[2]), str_replace('"', '', $data[3]), str_replace('"', '', $data[4]), str_replace('"', '', $hash)]);
-                } else {
-                    array_push($newarray, [str_replace('"', '', $data[0]), str_replace('"', '', $data[1]), str_replace('"', '', $data[2]), str_replace('"', '', $data[3]), str_replace('"', '', $data[4]), '']);
-                }
+                // if (isset($data[1]) && !empty($data[1])) {
+                array_push($newarray, [str_replace('"', '', $data[0]), str_replace('"', '', $data[1]), str_replace('"', '', $data[2]), str_replace('"', '', $data[3]), str_replace('"', '', $data[4]), str_replace('"', '', $hash)]);
+                // } else {
+                //     array_push($newarray, [str_replace('"', '', $data[0]), str_replace('"', '', $data[1]), str_replace('"', '', $data[2]), str_replace('"', '', $data[3]), str_replace('"', '', $data[4]), '']);
+                // }
             }
 
             if ($added_title && !($count === ($max_count))) {

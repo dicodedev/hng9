@@ -8,12 +8,21 @@ header("Access-Control-Allow-Headers: X-API-KEY, Origin, X-Requested-With, Conte
 $headers = apache_request_headers();
 $res = array();
 
-// set response code - 200 OK
-http_response_code(200);
+$body = json_decode(file_get_contents("php://input"));
+if (isset($body->operation_type) && isset($body->x) && isset($body->y) && gettype($body->x) == 'integer' && gettype($body->y) == 'integer') {
+    // set response code - 200 OK
+    http_response_code(200);
 
-$res["slackUsername"] = "dicodedev";
-$res["backend"] = true;
-$res["age"] = 22;
-$res["bio"] = "I'm a Software Engineer (Vuejs, Laravel/PHP)";
+    if ($body->operation_type == '+') {
+        $result = $body->x + $body->y;
+    } elseif ($body->operation_type == '-') {
+        $result = $body->x - $body->y;
+    } else {
+        $result = $body->x * $body->y;
+    }
+
+    $res["slackUsername"] = "dicodedev";
+    $res["result"] = $result;
+}
 
 echo json_encode($res);
