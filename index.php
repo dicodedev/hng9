@@ -17,8 +17,10 @@ if (isset($body->operation_type) && isset($body->x) && isset($body->y) && gettyp
         $result = $body->x + $body->y;
     } elseif ($body->operation_type == '-') {
         $result = $body->x - $body->y;
-    } else {
+    } elseif ($body->operation_type == '*') {
         $result = $body->x * $body->y;
+    } else {
+        $result = "Kindly pass in a valid operator";
     }
 
     $res["slackUsername"] = "dicodedev";
