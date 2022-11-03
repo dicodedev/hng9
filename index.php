@@ -52,16 +52,12 @@ if (isset($body['operation_type']) && isset($body['x']) && isset($body['y']) && 
     }
 
     //actual calculation
-    if ($sign == '+') {
-        $result = intval(${$first_num}) + intval(${$second_num});
-    } elseif ($sign == '-') {
-        $result = intval(${$first_num}) - intval(${$second_num});
-    } elseif ($sign == '*') {
-        $result = intval(${$first_num}) * intval(${$second_num});
-    } else {
-        $result = "Kindly pass in a valid operator";
-    }
+    if ($sign == '+') $result = intval(${$first_num}) + intval(${$second_num});
+    elseif ($sign == '-') $result = intval(${$first_num}) - intval(${$second_num});
+    elseif ($sign == '*') $result = intval(${$first_num}) * intval(${$second_num});
+    else $result = "Kindly pass in a valid operator";
 
+    //retun values
     $res["slackUsername"] = "dicodedev";
     $res["operation_type"] = $string;
     $res["result"] = $result;
