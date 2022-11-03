@@ -32,9 +32,21 @@ if (isset($body['operation_type']) && isset($body['x']) && isset($body['y']) && 
 
     //declare new variables
     if (!strrpos($lstring, "from")) {
-        $first_num = $variables[0];
-        $second_num = $variables[1];
+        //it doesn't contain a from statement
+        if (in_array($string, array("addition", "subtraction", "multiplication"))) {
+            $first_num = "x";
+            $second_num = "y";
+
+            //set the sign
+            if ($string == "addition") $sign = "+";
+            if ($string == "subtraction") $sign = "-";
+            if ($string == "multiplication") $sign = "*";
+        } else {
+            $first_num = $variables[0];
+            $second_num = $variables[1];
+        }
     } else {
+        //if it contain a from statement, interchnage the numbers
         $first_num = $variables[1];
         $second_num = $variables[0];
     }
