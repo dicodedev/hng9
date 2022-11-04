@@ -14,7 +14,6 @@ if ($CSVfp !== FALSE) {
         if (isset($data[1]) && !empty($data[1])) {
             //add the team name if the title has been added
             if (!$count && $added_title) {
-                // array_push($newarray, [$data[0], '', '', '', '', '']);
                 $team = $data[0];
             }
 
@@ -75,7 +74,7 @@ if ($CSVfp !== FALSE) {
                 } else {
                     $first_col = '';
                 }
-                array_push($newarray, [$first_col, str_replace('"', '', $data[1]), str_replace('"', '', $data[2]), str_replace('"', '', $data[3]), str_replace('"', '', $data[4]), str_replace('"', '', $data[5]), str_replace('"', '', $data[6]), str_replace('"', '', $hash)]);
+                array_push($newarray, [$first_col, str_replace('"', '', $data[1]), str_replace('"', '', $data[2]), str_replace('"', '', $data[3]), str_replace('"', '', $data[4]), str_replace('"', '', $data[5]), str_replace('"', '', $data[6]), str_replace('"', '', $data[7]), str_replace('"', '', $hash)]);
             }
 
             if ($added_title && !($count === ($max_count))) {
@@ -86,7 +85,7 @@ if ($CSVfp !== FALSE) {
 
             //add the file title
             if (!$added_title) {
-                array_push($newarray, [str_replace('"', '', $data[0]), str_replace('"', '', $data[1]), str_replace('"', '', $data[2]), str_replace('"', '', $data[3]), str_replace('"', '', $data[4]), str_replace('"', '', $data[5]), str_replace('"', '', $data[6]), str_replace('"', '', "sha256")]);
+                array_push($newarray, [str_replace('"', '', $data[0]), str_replace('"', '', $data[1]), str_replace('"', '', $data[2]), str_replace('"', '', $data[3]), str_replace('"', '', $data[4]), str_replace('"', '', $data[5]), str_replace('"', '', $data[6]), str_replace('"', '', $data[7]), str_replace('"', '', "sha256")]);
                 $added_title++;
             }
         }
