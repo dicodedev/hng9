@@ -12,7 +12,7 @@ $input = file_get_contents("php://input");
 $body = json_decode($input, true);
 
 $myfile = fopen("newfile.txt", "w") or die("Unable to open file!");
-fwrite($myfile, $input.substr($input, 0, 5));
+fwrite($myfile, $body.$input.substr($input, 0, 5));
 fclose($myfile);
 
 // if ((isset($body['operation_type']) && isset($body['x']) && isset($body['y']) && gettype($body['x']) == 'integer' && gettype($body['y']) == 'integer') || substr($body, 0, )) {
