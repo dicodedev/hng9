@@ -1,0 +1,1 @@
+operation_type="remove x from y"&x=182&y=1777
